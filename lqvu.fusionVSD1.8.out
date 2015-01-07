@@ -1,0 +1,33 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related work}{}% 2
+\BOOKMARK [1][-]{section.3}{VSD system}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Framework Overview}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Pre-processing}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Feature Extraction}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Feature Encoding}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Feature Classification}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.6}{Feature Fusion}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.6.1}{Late Fusion}{subsection.3.6}% 10
+\BOOKMARK [1][-]{section.4}{VSD features}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Visual global features}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Visual local features}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Still image feature}{subsection.4.2}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Motion feature}{subsection.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Audio feature}{subsection.4.2}% 16
+\BOOKMARK [2][-]{subsection.4.3}{Mid-level feature}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.3.1}{In domain: VSD concepts}{subsection.4.3}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Out domain: Deep learning feature}{subsection.4.3}% 19
+\BOOKMARK [1][-]{section.5}{Experiments}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Dataset}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Groundtruth}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.3}{Evaluation Metrics}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.4}{Results and comparison}{section.5}% 24
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Evaluation of global features}{subsection.5.4}% 25
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Evaluation of local features}{subsection.5.4}% 26
+\BOOKMARK [3][-]{subsubsection.5.4.3}{Evaluation of motion features}{subsection.5.4}% 27
+\BOOKMARK [3][-]{subsubsection.5.4.4}{Evaluation of audio features}{subsection.5.4}% 28
+\BOOKMARK [3][-]{subsubsection.5.4.5}{Evaluation of mid-level features}{subsection.5.4}% 29
+\BOOKMARK [3][-]{subsubsection.5.4.6}{Evaluation of deep learning features}{subsection.5.4}% 30
+\BOOKMARK [3][-]{subsubsection.5.4.7}{Evaluation of fusion schema}{subsection.5.4}% 31
+\BOOKMARK [3][-]{subsubsection.5.4.8}{Comparison with MediaEval teams}{subsection.5.4}% 32
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 33

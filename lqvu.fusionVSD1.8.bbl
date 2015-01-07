@@ -1,0 +1,106 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{demarty2014benchmarking}
+C.-H. Demarty, B.~Ionescu, Y.-G. Jiang, V.~L. Quang, M.~Schedl, C.~Penet,
+  Benchmarking violent scenes detection in movies, in: Content-Based Multimedia
+  Indexing (CBMI), 2014 12th International Workshop on, IEEE, 2014, pp. 1--6.
+
+\bibitem{nam1998audio}
+J.~Nam, M.~Alghoniemy, A.~H. Tewfik, Audio-visual content-based violent scene
+  characterization, in: Image Processing, 1998. ICIP 98. Proceedings. 1998
+  International Conference on, Vol.~1, IEEE, 1998, pp. 353--357.
+
+\bibitem{2}
+C.~Liang-Hua, H.-W. Hsu, L.-Y. Wang, , C.-W. Su, Violence detection in movies,
+  Computer Graphics, Imaging and Visualization (CGIV) (2011) 119--124.
+
+\bibitem{3}
+C.~C., J.~Dionisio, M.~Echavez, P.~C. Naval., Dove: Detection of movie violence
+  using motion intensity analysis on skin and blood, Workshops and
+  Demonstrations - ECCV (2005) 150--156.
+
+\bibitem{11}
+G.~Yu, W.~Wang, S.~Jiang, Q.~Huang, W.~Gao, Detecting violent scenes in movies
+  by auditory and visual cues, Advances in Multimedia Information
+  Processing-PCM (2008) 317--326.
+
+\bibitem{17}
+L.~Jian, W.~Wang, Weakly-supervised violence detection in movies with audio and
+  video based co-training, Advances in Multimedia Information Processing-PCM
+  (2009) 930--935.
+
+\bibitem{21}
+P.~Cédric, C.-H. Demarty, G.~Gravier, P.~Gros, Technicolor and inria/irisa at
+  mediaeval 2011: Learning temporal modality integration with bayesian
+  networks, MediaEval Multimedia Benchmark Workshop.
+
+\bibitem{23}
+S.~Sadanand, J.~J. Corso, Action bank: A high-level representation of activity
+  in video, in: Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on, IEEE, 2012, pp. 1234--1241.
+
+\bibitem{15}
+L.~Li-Jia, H.~Su, L.~Fei-Fei, E.~P. Xing, Object bank: A high-level image
+  representation for scene classification \& semantic feature sparsification,
+  Advances in Neural Information Processing Systems (2010) 1378--1386.
+
+\bibitem{18}
+L.~Jingen, B.~Kuipers, S.~Savarese, Recognizing human actions by attributes,
+  IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2011)
+  3337--3344.
+
+\bibitem{13}
+I.~Bogdan, J.~Schluter, I.~Mironica, M.~Schedl, A naive mid-level concept-based
+  fusion approach to violence detection in hollywood movies, ACM Conference on
+  International Conference on Multimedia Retrieval (2013) 215--222.
+
+\bibitem{tan2013vireo}
+C.~C. Tan, C.-W. Ngo, The vireo team at mediaeval 2013: Violent scenes
+  detection by mid-level concepts learnt from youtube., in: MediaEval, 2013.
+
+\bibitem{liu2004conceptnet}
+H.~Liu, P.~Singh, Conceptnet—a practical commonsense reasoning tool-kit, BT
+  technology journal 22~(4) (2004) 211--226.
+
+\bibitem{dai2013fudan}
+Q.~Dai, J.~Tu, Z.~Shi, Y.-G. Jiang, X.~Xue, Fudan at mediaeval 2013: Violent
+  scenes detection using motion features and part-level attributes., in:
+  MediaEval, 2013.
+
+\bibitem{penet2013technicolor}
+C.~Penet, C.-H. Demarty, G.~Gravier, P.~Gros, et~al., Technicolor/inria team at
+  the mediaeval 2013 violent scenes detection task, MediaEval 2013 Working
+  Notes.
+
+\bibitem{sjoberg2013far}
+M.~Sj{\"o}berg, J.~Schl{\"u}ter, B.~Ionescu, M.~Schedl, Far at mediaeval 2013
+  violent scenes detection: Concept-based violent scenes detection in movies.,
+  in: MediaEval, 2013.
+
+\bibitem{derbas2013lig}
+N.~Derbas, B.~Safadi, G.~Qu{\'e}not, et~al., Lig at mediaeval 2013 affect task:
+  Use of a generic method and joint audio-visual words., in: MediaEval,
+  Citeseer, 2013.
+
+\bibitem{LibSVM}
+C.-C. Chang, C.-J. Lin, {LIBSVM}: A library for support vector machines, ACM
+  Transactions on Intelligent Systems and Technology 2 (2011) 27:1--27:27,
+  software available at \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}.
+
+\bibitem{lam2012nii}
+V.~Lam, D.-D. Le, S.-P. Le, S.~Satoh, D.~A. Duong, Nii, japan at mediaeval 2012
+  violent scenes detection affect task., in: MediaEval, Citeseer, 2012.
+
+\bibitem{wang_dense}
+H.~Wang, A.~Kl{\"a}ser, C.~Schmid, C.-L. Liu,
+  \href{http://hal.inria.fr/inria-00583818/en}{{Action Recognition by Dense
+  Trajectories}}, in: IEEE Conference on Computer Vision \& Pattern
+  Recognition, Colorado Springs, United States, 2011, pp. 3169--3176.
+\newline\urlprefix\url{http://hal.inria.fr/inria-00583818/en}
+
+\end{thebibliography}
