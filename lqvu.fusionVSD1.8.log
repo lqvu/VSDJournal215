@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.6.24)  7 JAN 2015 20:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.6.24)  7 JAN 2015 20:58
 entering extended mode
 **lqvu.fusionVSD1.8.tex
-
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Journal2015\lqvu.fusionVSD1.8.te
-x
+(D:\Github.com\VSDJournal215\lqvu.fusionVSD1.8.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -97,8 +95,8 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Journal2015\lqvu.fusionVSD1.8.sp
-l) ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+(D:\Github.com\VSDJournal215\lqvu.fusionVSD1.8.spl)
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -240,8 +238,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip47
 )
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Journal2015\lqvu.fusionVSD1.8.au
-x)
+(D:\Github.com\VSDJournal215\lqvu.fusionVSD1.8.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
@@ -256,7 +253,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen118
@@ -284,10 +282,8 @@ LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
 
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Journal2015\lqvu.fusionVSD1.8.ou
-t)
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Journal2015\lqvu.fusionVSD1.8.ou
-t)
+(D:\Github.com\VSDJournal215\lqvu.fusionVSD1.8.out)
+(D:\Github.com\VSDJournal215\lqvu.fusionVSD1.8.out)
 \@outlinefile=\write4
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 71.
@@ -314,9 +310,8 @@ File: Images/SystemOverview.png Graphic file (type png)
 <use Images/SystemOverview.png>
 Package pdftex.def Info: Images/SystemOverview.png used on input line 89.
 (pdftex.def)             Requested size: 345.0pt x 146.48692pt.
- [2 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Journal2015/Images/ViolentSc
-ene.png>]
-<Images/Framework1.png, id=170, 704.6325pt x 334.24875pt>
+ [2 <D:/Github.com/VSDJournal215/Images/ViolentScene.png>] <Images/Framework1.p
+ng, id=170, 704.6325pt x 334.24875pt>
 File: Images/Framework1.png Graphic file (type png)
 
 <use Images/Framework1.png>
@@ -328,15 +323,13 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [3 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Journal2015/Images/SystemOve
-rview.png>]
+ [3 <D:/Github.com/VSDJournal215/Images/SystemOverview.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 104--104
 [][][]\OT1/cmr/m/n/8 http://www.technicolor.com/en/innovation/research-innovati
 on/scientific-data-
  []
 
-[4 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Journal2015/Images/Framework1
-.png>] [5]
+[4 <D:/Github.com/VSDJournal215/Images/Framework1.png>] [5]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
@@ -353,24 +346,25 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [7] [8] <Images/Bow.png, id=243, 298.86656pt x 100.87688pt>
+ [7] [8]
+<Images/Bow.png, id=243, 298.86656pt x 100.87688pt>
 File: Images/Bow.png Graphic file (type png)
-
-<use Images/Bow.png>
+ <use Images/Bow.png>
 Package pdftex.def Info: Images/Bow.png used on input line 138.
 (pdftex.def)             Requested size: 241.49895pt x 81.51433pt.
- [9 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Journal2015/Images/Bow.png>]
+
+[9 <D:/Github.com/VSDJournal215/Images/Bow.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 160.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ó in font cmr10!
-
-[10] [11]
+ [10] [11]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
@@ -389,7 +383,8 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- <Images/Mid-level.png, id=265, 700.11563pt x 313.17pt>
+
+<Images/Mid-level.png, id=265, 700.11563pt x 313.17pt>
 File: Images/Mid-level.png Graphic file (type png)
 
 <use Images/Mid-level.png>
@@ -432,14 +427,11 @@ Overfull \hbox (60.00526pt too wide) in paragraph at lines 228--240
 [][] 
  []
 
-[13 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Journal2015/Images/Mid-level
-.png>]
+[13 <D:/Github.com/VSDJournal215/Images/Mid-level.png>]
 
 LaTeX Warning: Text page 14 contains only floats.
 
-[14] [15] [16]
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Journal2015\lqvu.fusionVSD1.8.bb
-l
+[14] [15] [16] (D:\Github.com\VSDJournal215\lqvu.fusionVSD1.8.bbl
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
  [17]
@@ -448,11 +440,10 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
  [18])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
- [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
 
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Journal2015\lqvu.fusionVSD1.8.au
-x)
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+ (D:\Github.com\VSDJournal215\lqvu.fusionVSD1.8.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `lqvu.fusionVSD1.8.out' has not changed.
@@ -461,7 +452,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
  ) 
 Here is how much of TeX's memory you used:
  5974 strings out of 493921
- 87096 string characters out of 3147285
+ 86646 string characters out of 3147285
  188248 words of memory out of 3000000
  9133 multiletter control sequences out of 15000+200000
  8802 words of font info for 31 fonts, out of 3000000 for 9000
