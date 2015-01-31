@@ -1,0 +1,1522 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{51}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{demarty2014benchmarking}
+\begin{bchapter}
+\bauthor{\bsnm{Demarty}, \binits{C.-H.}},
+\bauthor{\bsnm{Ionescu}, \binits{B.}},
+\bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
+\bauthor{\bsnm{Quang}, \binits{V.L.}},
+\bauthor{\bsnm{Schedl}, \binits{M.}},
+\bauthor{\bsnm{Penet}, \binits{C.}}:
+\bctitle{Benchmarking violent scenes detection in movies}.
+In: \bbtitle{Content-Based Multimedia Indexing (CBMI), 2014 12th International
+  Workshop On},
+pp. \bfpage{1}--\blpage{6}
+(\byear{2014}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 2
+\bibitem{TVMovieViolence}
+\begin{botherref}
+TV and Movie Violence: Why watching it is harmful to children.
+\url{http://www.ocd.pitt.edu/Files/PDF/Parenting/TvAndMovieViolence.pdf}.
+Accessed: 2015-1-10
+\end{botherref}
+\endbibitem
+
+%%% 3
+\bibitem{nam1998audio}
+\begin{bchapter}
+\bauthor{\bsnm{Nam}, \binits{J.}},
+\bauthor{\bsnm{Alghoniemy}, \binits{M.}},
+\bauthor{\bsnm{Tewfik}, \binits{A.H.}}:
+\bctitle{Audio-visual content-based violent scene characterization}.
+In: \bbtitle{Image Processing, 1998. ICIP 98. Proceedings. 1998 International
+  Conference On},
+vol. \bseriesno{1},
+pp. \bfpage{353}--\blpage{357}
+(\byear{1998}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 4
+\bibitem{2}
+\begin{botherref}
+\oauthor{\bsnm{Liang-Hua}, \binits{C.}},
+\oauthor{\bsnm{Hsu}, \binits{H.-W.}},
+\oauthor{\bsnm{Wang}, \binits{L.-Y.}},
+\oauthor{},
+\oauthor{\bsnm{Su}, \binits{C.-W.}}:
+Violence detection in movies.
+Computer Graphics, Imaging and Visualization (CGIV),
+119--124
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem{3}
+\begin{botherref}
+\oauthor{\bsnm{C.}, \binits{C.}},
+\oauthor{\bsnm{Dionisio}, \binits{J.}},
+\oauthor{\bsnm{Echavez}, \binits{M.}},
+\oauthor{\bsnm{Naval.}, \binits{P.C.}}:
+Dove: Detection of movie violence using motion intensity analysis on skin and
+  blood.
+Workshops and Demonstrations - ECCV,
+150--156
+(2005)
+\end{botherref}
+\endbibitem
+
+%%% 6
+\bibitem{11}
+\begin{botherref}
+\oauthor{\bsnm{Yu}, \binits{G.}},
+\oauthor{\bsnm{Wang}, \binits{W.}},
+\oauthor{\bsnm{Jiang}, \binits{S.}},
+\oauthor{\bsnm{Huang}, \binits{Q.}},
+\oauthor{\bsnm{Gao}, \binits{W.}}:
+Detecting violent scenes in movies by auditory and visual cues.
+Advances in Multimedia Information Processing-PCM,
+317--326
+(2008)
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem{17}
+\begin{botherref}
+\oauthor{\bsnm{Jian}, \binits{L.}},
+\oauthor{\bsnm{Wang}, \binits{W.}}:
+Weakly-supervised violence detection in movies with audio and video based
+  co-training.
+Advances in Multimedia Information Processing-PCM,
+930--935
+(2009)
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem{21}
+\begin{botherref}
+\oauthor{\bsnm{Cédric}, \binits{P.}},
+\oauthor{\bsnm{Demarty}, \binits{C.-H.}},
+\oauthor{\bsnm{Gravier}, \binits{G.}},
+\oauthor{\bsnm{Gros}, \binits{P.}}:
+Technicolor and inria/irisa at mediaeval 2011: Learning temporal modality
+  integration with bayesian networks.
+MediaEval Multimedia Benchmark Workshop
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 9
+\bibitem{23}
+\begin{bchapter}
+\bauthor{\bsnm{Sadanand}, \binits{S.}},
+\bauthor{\bsnm{Corso}, \binits{J.J.}}:
+\bctitle{Action bank: A high-level representation of activity in video}.
+In: \bbtitle{Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference On},
+pp. \bfpage{1234}--\blpage{1241}
+(\byear{2012}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 10
+\bibitem{15}
+\begin{botherref}
+\oauthor{\bsnm{Li-Jia}, \binits{L.}},
+\oauthor{\bsnm{Su}, \binits{H.}},
+\oauthor{\bsnm{Fei-Fei}, \binits{L.}},
+\oauthor{\bsnm{Xing}, \binits{E.P.}}:
+Object bank: A high-level image representation for scene classification \&
+  semantic feature sparsification.
+Advances in Neural Information Processing Systems,
+1378--1386
+(2010)
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem{18}
+\begin{botherref}
+\oauthor{\bsnm{Jingen}, \binits{L.}},
+\oauthor{\bsnm{Kuipers}, \binits{B.}},
+\oauthor{\bsnm{Savarese}, \binits{S.}}:
+Recognizing human actions by attributes.
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR),
+3337--3344
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem{13}
+\begin{botherref}
+\oauthor{\bsnm{Bogdan}, \binits{I.}},
+\oauthor{\bsnm{Schluter}, \binits{J.}},
+\oauthor{\bsnm{Mironica}, \binits{I.}},
+\oauthor{\bsnm{Schedl}, \binits{M.}}:
+A naive mid-level concept-based fusion approach to violence detection in
+  hollywood movies.
+ACM Conference on International Conference on Multimedia Retrieval,
+215--222
+(2013)
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{tan2013vireo}
+\begin{bchapter}
+\bauthor{\bsnm{Tan}, \binits{C.C.}},
+\bauthor{\bsnm{Ngo}, \binits{C.-W.}}:
+\bctitle{The vireo team at mediaeval 2013: Violent scenes detection by
+  mid-level concepts learnt from youtube.}
+In: \bbtitle{MediaEval}
+(\byear{2013})
+\end{bchapter}
+\endbibitem
+
+%%% 14
+\bibitem{liu2004conceptnet}
+\begin{barticle}
+\bauthor{\bsnm{Liu}, \binits{H.}},
+\bauthor{\bsnm{Singh}, \binits{P.}}:
+\batitle{Conceptnet—a practical commonsense reasoning tool-kit}.
+\bjtitle{BT technology journal}
+\bvolume{22}(\bissue{4}),
+\bfpage{211}--\blpage{226}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{dai2013fudan}
+\begin{bchapter}
+\bauthor{\bsnm{Dai}, \binits{Q.}},
+\bauthor{\bsnm{Tu}, \binits{J.}},
+\bauthor{\bsnm{Shi}, \binits{Z.}},
+\bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
+\bauthor{\bsnm{Xue}, \binits{X.}}:
+\bctitle{Fudan at mediaeval 2013: Violent scenes detection using motion
+  features and part-level attributes.}
+In: \bbtitle{MediaEval}
+(\byear{2013})
+\end{bchapter}
+\endbibitem
+
+%%% 16
+\bibitem{penet2013technicolor}
+\begin{botherref}
+\oauthor{\bsnm{Penet}, \binits{C.}},
+\oauthor{\bsnm{Demarty}, \binits{C.-H.}},
+\oauthor{\bsnm{Gravier}, \binits{G.}},
+\oauthor{\bsnm{Gros}, \binits{P.}}, et al.:
+Technicolor/inria team at the mediaeval 2013 violent scenes detection task.
+MediaEval 2013 Working Notes
+(2013)
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem{sjoberg2013far}
+\begin{bchapter}
+\bauthor{\bsnm{Sj{\"o}berg}, \binits{M.}},
+\bauthor{\bsnm{Schl{\"u}ter}, \binits{J.}},
+\bauthor{\bsnm{Ionescu}, \binits{B.}},
+\bauthor{\bsnm{Schedl}, \binits{M.}}:
+\bctitle{Far at mediaeval 2013 violent scenes detection: Concept-based violent
+  scenes detection in movies.}
+In: \bbtitle{MediaEval}
+(\byear{2013})
+\end{bchapter}
+\endbibitem
+
+%%% 18
+\bibitem{derbas2013lig}
+\begin{bchapter}
+\bauthor{\bsnm{Derbas}, \binits{N.}},
+\bauthor{\bsnm{Safadi}, \binits{B.}},
+\bauthor{\bsnm{Qu{\'e}not}, \binits{G.}}, \betal:
+\bctitle{Lig at mediaeval 2013 affect task: Use of a generic method and joint
+  audio-visual words.}
+In: \bbtitle{MediaEval}
+(\byear{2013}).
+\bcomment{Citeseer}
+\end{bchapter}
+\endbibitem
+
+%%% 19
+\bibitem{aly2013axes}
+\begin{botherref}
+\oauthor{\bsnm{Aly}, \binits{R.}},
+\oauthor{\bsnm{Arandjelovic}, \binits{R.}},
+\oauthor{\bsnm{Chatfield}, \binits{K.}},
+\oauthor{\bsnm{Douze}, \binits{M.}},
+\oauthor{\bsnm{Fernando}, \binits{B.}},
+\oauthor{\bsnm{Harchaoui}, \binits{Z.}},
+\oauthor{\bsnm{McGuinness}, \binits{K.}},
+\oauthor{\bsnm{O'Connor}, \binits{N.E.}},
+\oauthor{\bsnm{Oneata}, \binits{D.}},
+\oauthor{\bsnm{Parkhi}, \binits{O.M.}}, et al.:
+The axes submissions at trecvid 2013
+(2013)
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem{merler2012semantic}
+\begin{barticle}
+\bauthor{\bsnm{Merler}, \binits{M.}},
+\bauthor{\bsnm{Huang}, \binits{B.}},
+\bauthor{\bsnm{Xie}, \binits{L.}},
+\bauthor{\bsnm{Hua}, \binits{G.}},
+\bauthor{\bsnm{Natsev}, \binits{A.}}:
+\batitle{Semantic model vectors for complex video event recognition}.
+\bjtitle{Multimedia, IEEE Transactions on}
+\bvolume{14}(\bissue{1}),
+\bfpage{88}--\blpage{101}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{harris1954distributional}
+\begin{botherref}
+\oauthor{\bsnm{Harris}, \binits{Z.S.}}:
+Distributional structure.
+Word
+(1954)
+\end{botherref}
+\endbibitem
+
+%%% 22
+\bibitem{csurka2004visual}
+\begin{bchapter}
+\bauthor{\bsnm{Csurka}, \binits{G.}},
+\bauthor{\bsnm{Dance}, \binits{C.}},
+\bauthor{\bsnm{Fan}, \binits{L.}},
+\bauthor{\bsnm{Willamowski}, \binits{J.}},
+\bauthor{\bsnm{Bray}, \binits{C.}}:
+\bctitle{Visual categorization with bags of keypoints}.
+In: \bbtitle{Workshop on Statistical Learning in Computer Vision, ECCV},
+vol. \bseriesno{1},
+pp. \bfpage{1}--\blpage{2}
+(\byear{2004})
+\end{bchapter}
+\endbibitem
+
+%%% 23
+\bibitem{sivic2009efficient}
+\begin{barticle}
+\bauthor{\bsnm{Sivic}, \binits{J.}},
+\bauthor{\bsnm{Zisserman}, \binits{A.}}:
+\batitle{Efficient visual search of videos cast as text retrieval}.
+\bjtitle{Pattern Analysis and Machine Intelligence, IEEE Transactions on}
+\bvolume{31}(\bissue{4}),
+\bfpage{591}--\blpage{606}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem{jiang2010columbia}
+\begin{bchapter}
+\bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
+\bauthor{\bsnm{Zeng}, \binits{X.}},
+\bauthor{\bsnm{Ye}, \binits{G.}},
+\bauthor{\bsnm{Ellis}, \binits{D.}},
+\bauthor{\bsnm{Chang}, \binits{S.-F.}},
+\bauthor{\bsnm{Bhattacharya}, \binits{S.}},
+\bauthor{\bsnm{Shah}, \binits{M.}}:
+\bctitle{Columbia-ucf trecvid2010 multimedia event detection: Combining
+  multiple modalities, contextual concepts, and temporal matching.}
+In: \bbtitle{TRECVID}
+(\byear{2010})
+\end{bchapter}
+\endbibitem
+
+%%% 25
+\bibitem{jiang2010representations}
+\begin{barticle}
+\bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
+\bauthor{\bsnm{Yang}, \binits{J.}},
+\bauthor{\bsnm{Ngo}, \binits{C.-W.}},
+\bauthor{\bsnm{Hauptmann}, \binits{A.G.}}:
+\batitle{Representations of keypoint-based semantic concept detection: A
+  comprehensive study}.
+\bjtitle{Multimedia, IEEE Transactions on}
+\bvolume{12}(\bissue{1}),
+\bfpage{42}--\blpage{53}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem{jiang2007towards}
+\begin{bchapter}
+\bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
+\bauthor{\bsnm{Ngo}, \binits{C.-W.}},
+\bauthor{\bsnm{Yang}, \binits{J.}}:
+\bctitle{Towards optimal bag-of-features for object categorization and semantic
+  video retrieval}.
+In: \bbtitle{Proceedings of the 6th ACM International Conference on Image and
+  Video Retrieval},
+pp. \bfpage{494}--\blpage{501}
+(\byear{2007}).
+\bcomment{ACM}
+\end{bchapter}
+\endbibitem
+
+%%% 27
+\bibitem{lazebnik2006beyond}
+\begin{bchapter}
+\bauthor{\bsnm{Lazebnik}, \binits{S.}},
+\bauthor{\bsnm{Schmid}, \binits{C.}},
+\bauthor{\bsnm{Ponce}, \binits{J.}}:
+\bctitle{Beyond bags of features: Spatial pyramid matching for recognizing
+  natural scene categories}.
+In: \bbtitle{Computer Vision and Pattern Recognition, 2006 IEEE Computer
+  Society Conference On},
+vol. \bseriesno{2},
+pp. \bfpage{2169}--\blpage{2178}
+(\byear{2006}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 28
+\bibitem{jaakkola1999exploiting}
+\begin{botherref}
+\oauthor{\bsnm{Jaakkola}, \binits{T.}},
+\oauthor{\bsnm{Haussler}, \binits{D.}}, et al.:
+Exploiting generative models in discriminative classifiers.
+Advances in neural information processing systems,
+487--493
+(1999)
+\end{botherref}
+\endbibitem
+
+%%% 29
+\bibitem{sun2013large}
+\begin{bchapter}
+\bauthor{\bsnm{Sun}, \binits{C.}},
+\bauthor{\bsnm{Nevatia}, \binits{R.}}:
+\bctitle{Large-scale web video event classification by use of fisher vectors}.
+In: \bbtitle{Applications of Computer Vision (WACV), 2013 IEEE Workshop On},
+pp. \bfpage{15}--\blpage{22}
+(\byear{2013}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 30
+\bibitem{wang2013action}
+\begin{bchapter}
+\bauthor{\bsnm{Wang}, \binits{H.}},
+\bauthor{\bsnm{Schmid}, \binits{C.}}:
+\bctitle{Action recognition with improved trajectories}.
+In: \bbtitle{Computer Vision (ICCV), 2013 IEEE International Conference On},
+pp. \bfpage{3551}--\blpage{3558}
+(\byear{2013}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 31
+\bibitem{sanchez2013image}
+\begin{barticle}
+\bauthor{\bsnm{S{\'a}nchez}, \binits{J.}},
+\bauthor{\bsnm{Perronnin}, \binits{F.}},
+\bauthor{\bsnm{Mensink}, \binits{T.}},
+\bauthor{\bsnm{Verbeek}, \binits{J.}}:
+\batitle{Image classification with the fisher vector: Theory and practice}.
+\bjtitle{International journal of computer vision}
+\bvolume{105}(\bissue{3}),
+\bfpage{222}--\blpage{245}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem{perronnin2010improving}
+\begin{bchapter}
+\bauthor{\bsnm{Perronnin}, \binits{F.}},
+\bauthor{\bsnm{S{\'a}nchez}, \binits{J.}},
+\bauthor{\bsnm{Mensink}, \binits{T.}}:
+\bctitle{Improving the fisher kernel for large-scale image classification}.
+In: \bbtitle{Computer Vision--ECCV 2010},
+pp. \bfpage{143}--\blpage{156}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2010})
+\end{bchapter}
+\endbibitem
+
+%%% 33
+\bibitem{LibSVM}
+\begin{barticle}
+\bauthor{\bsnm{Chang}, \binits{C.-C.}},
+\bauthor{\bsnm{Lin}, \binits{C.-J.}}:
+\batitle{{LIBSVM}: A library for support vector machines}.
+\bjtitle{ACM Transactions on Intelligent Systems and Technology}
+\bvolume{2},
+\bfpage{27}--\blpage{12727}
+(\byear{2011}).
+\bcomment{Software available at \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}}
+\end{barticle}
+\endbibitem
+
+%%% 34
+\bibitem{snoek2005early}
+\begin{bchapter}
+\bauthor{\bsnm{Snoek}, \binits{C.G.}},
+\bauthor{\bsnm{Worring}, \binits{M.}},
+\bauthor{\bsnm{Smeulders}, \binits{A.W.}}:
+\bctitle{Early versus late fusion in semantic video analysis}.
+In: \bbtitle{Proceedings of the 13th Annual ACM International Conference on
+  Multimedia},
+pp. \bfpage{399}--\blpage{402}
+(\byear{2005}).
+\bcomment{ACM}
+\end{bchapter}
+\endbibitem
+
+%%% 35
+\bibitem{lam2012nii}
+\begin{bchapter}
+\bauthor{\bsnm{Lam}, \binits{V.}},
+\bauthor{\bsnm{Le}, \binits{D.-D.}},
+\bauthor{\bsnm{Le}, \binits{S.-P.}},
+\bauthor{\bsnm{Satoh}, \binits{S.}},
+\bauthor{\bsnm{Duong}, \binits{D.A.}}:
+\bctitle{Nii, japan at mediaeval 2012 violent scenes detection affect task.}
+In: \bbtitle{MediaEval}
+(\byear{2012}).
+\bcomment{Citeseer}
+\end{bchapter}
+\endbibitem
+
+%%% 36
+\bibitem{rabiner2007introduction}
+\begin{barticle}
+\bauthor{\bsnm{Rabiner}, \binits{L.R.}},
+\bauthor{\bsnm{Schafer}, \binits{R.W.}}:
+\batitle{Introduction to digital speech processing}.
+\bjtitle{Foundations and trends in signal processing}
+\bvolume{1}(\bissue{1}),
+\bfpage{1}--\blpage{194}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 37
+\bibitem{oneata2014lear}
+\begin{botherref}
+\oauthor{\bsnm{Oneata}, \binits{D.}},
+\oauthor{\bsnm{Verbeek}, \binits{J.}},
+\oauthor{\bsnm{Schmid}, \binits{C.}}:
+The lear submission at thumos 2014
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 38
+\bibitem{krizhevsky2012imagenet}
+\begin{bchapter}
+\bauthor{\bsnm{Krizhevsky}, \binits{A.}},
+\bauthor{\bsnm{Sutskever}, \binits{I.}},
+\bauthor{\bsnm{Hinton}, \binits{G.E.}}:
+\bctitle{Imagenet classification with deep convolutional neural networks}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+pp. \bfpage{1097}--\blpage{1105}
+(\byear{2012})
+\end{bchapter}
+\endbibitem
+
+%%% 39
+\bibitem{deng2009imagenet}
+\begin{bchapter}
+\bauthor{\bsnm{Deng}, \binits{J.}},
+\bauthor{\bsnm{Dong}, \binits{W.}},
+\bauthor{\bsnm{Socher}, \binits{R.}},
+\bauthor{\bsnm{Li}, \binits{L.-J.}},
+\bauthor{\bsnm{Li}, \binits{K.}},
+\bauthor{\bsnm{Fei-Fei}, \binits{L.}}:
+\bctitle{Imagenet: A large-scale hierarchical image database}.
+In: \bbtitle{Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE
+  Conference On},
+pp. \bfpage{248}--\blpage{255}
+(\byear{2009}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 40
+\bibitem{donahue2013decaf}
+\begin{botherref}
+\oauthor{\bsnm{Donahue}, \binits{J.}},
+\oauthor{\bsnm{Jia}, \binits{Y.}},
+\oauthor{\bsnm{Vinyals}, \binits{O.}},
+\oauthor{\bsnm{Hoffman}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{N.}},
+\oauthor{\bsnm{Tzeng}, \binits{E.}},
+\oauthor{\bsnm{Darrell}, \binits{T.}}:
+Decaf: A deep convolutional activation feature for generic visual recognition.
+arXiv preprint arXiv:1310.1531
+(2013)
+\end{botherref}
+\endbibitem
+
+%%% 41
+\bibitem{jia2014caffe}
+\begin{bchapter}
+\bauthor{\bsnm{Jia}, \binits{Y.}},
+\bauthor{\bsnm{Shelhamer}, \binits{E.}},
+\bauthor{\bsnm{Donahue}, \binits{J.}},
+\bauthor{\bsnm{Karayev}, \binits{S.}},
+\bauthor{\bsnm{Long}, \binits{J.}},
+\bauthor{\bsnm{Girshick}, \binits{R.}},
+\bauthor{\bsnm{Guadarrama}, \binits{S.}},
+\bauthor{\bsnm{Darrell}, \binits{T.}}:
+\bctitle{Caffe: Convolutional architecture for fast feature embedding}.
+In: \bbtitle{Proceedings of the ACM International Conference on Multimedia},
+pp. \bfpage{675}--\blpage{678}
+(\byear{2014}).
+\bcomment{ACM}
+\end{bchapter}
+\endbibitem
+
+%%% 42
+\bibitem{bosch2006scene}
+\begin{bchapter}
+\bauthor{\bsnm{Bosch}, \binits{A.}},
+\bauthor{\bsnm{Zisserman}, \binits{A.}},
+\bauthor{\bsnm{Mu{\~n}oz}, \binits{X.}}:
+\bctitle{Scene classification via plsa}.
+In: \bbtitle{Computer Vision--ECCV 2006},
+pp. \bfpage{517}--\blpage{530}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2006})
+\end{bchapter}
+\endbibitem
+
+%%% 43
+\bibitem{bosch2007image}
+\begin{bchapter}
+\bauthor{\bsnm{Bosch}, \binits{A.}},
+\bauthor{\bsnm{Zisserman}, \binits{A.}},
+\bauthor{\bsnm{Muoz}, \binits{X.}}:
+\bctitle{Image classification using random forests and ferns}.
+In: \bbtitle{Computer Vision, 2007. ICCV 2007. IEEE 11th International
+  Conference On},
+pp. \bfpage{1}--\blpage{8}
+(\byear{2007}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 44
+\bibitem{2014fudan}
+\begin{botherref}
+\oauthor{\bsnm{Dai}, \binits{Q.}},
+\oauthor{\bsnm{Wu}, \binits{Z.}},
+\oauthor{\bsnm{Jiang}, \binits{Y.-G.}},
+\oauthor{\bsnm{Xue}, \binits{X.}},
+\oauthor{\bsnm{Tang}, \binits{J.}}:
+Fudan-njust at mediaeval 2014: Violent scenes detection using deep neural
+  networks
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 45
+\bibitem{2014far}
+\begin{botherref}
+\oauthor{\bsnm{Sj{\"o}berg}, \binits{M.}},
+\oauthor{\bsnm{Mironica}, \binits{I.}},
+\oauthor{\bsnm{Schedl}, \binits{M.}},
+\oauthor{\bsnm{Ionescu}, \binits{B.}}:
+Far at mediaeval 2014 violent scenes detection: A concept-based fusion approach
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 46
+\bibitem{2014nii}
+\begin{botherref}
+\oauthor{\bsnm{Lam}, \binits{V.}},
+\oauthor{\bsnm{Le}, \binits{D.}},
+\oauthor{\bsnm{Phan}, \binits{S.}},
+\oauthor{\bsnm{Satoh}, \binits{S.}},
+\oauthor{\bsnm{Duong}, \binits{D.A.}}:
+{NII-UIT} at mediaeval 2014 violent scenes detection affect task
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 47
+\bibitem{2014mic}
+\begin{botherref}
+\oauthor{\bsnm{Zhang}, \binits{B.}},
+\oauthor{\bsnm{Yi}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Yu}, \binits{J.}}:
+Mic-tju at mediaeval violent scenes detection (vsd) 2014
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 48
+\bibitem{avila2014recod}
+\begin{botherref}
+\oauthor{\bsnm{Avila}, \binits{S.}},
+\oauthor{\bsnm{Moreira}, \binits{D.}},
+\oauthor{\bsnm{Perez}, \binits{M.}},
+\oauthor{\bsnm{Moraes}, \binits{D.}},
+\oauthor{\bsnm{Cota}, \binits{I.}},
+\oauthor{\bsnm{Testoni}, \binits{V.}},
+\oauthor{\bsnm{Valle}, \binits{E.}},
+\oauthor{\bsnm{Goldenstein}, \binits{S.}},
+\oauthor{\bsnm{Rocha}, \binits{A.}}:
+Recod at mediaeval 2014: Violent scenes detection task
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 49
+\bibitem{2014vivolab}
+\begin{botherref}
+\oauthor{\bsnm{Cast{\'a}n}, \binits{D.}},
+\oauthor{\bsnm{Rodr{\'\i}guez}, \binits{M.}},
+\oauthor{\bsnm{Ortega}, \binits{A.}},
+\oauthor{\bsnm{Orrite}, \binits{C.}},
+\oauthor{\bsnm{Lleida}, \binits{E.}}:
+Vivolab and cvlab-mediaeval 2014: Violent scenes detection affect task
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 50
+\bibitem{2014tub}
+\begin{botherref}
+\oauthor{\bsnm{Acar}, \binits{E.}},
+\oauthor{\bsnm{Albayrak}, \binits{S.}}:
+Tub-irml at mediaeval 2014 violent scenes detection task: Violence modeling
+  through feature space partitioning
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 51
+\bibitem{2014mtm}
+\begin{botherref}
+\oauthor{\bparticle{do} \bsnm{Nascimento~Teixeira}, \binits{B.}}:
+Mtm at mediaeval 2014 violence detection task
+(2014)
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>Benchmarking Violent Scenes Detection in movies</p></title>
+  <aug>
+    <au><snm>Demarty</snm><fnm>CH</fnm></au>
+    <au><snm>Ionescu</snm><fnm>B</fnm></au>
+    <au><snm>Jiang</snm><fnm>YG</fnm></au>
+    <au><snm>Quang</snm><fnm>VL</fnm></au>
+    <au><snm>Schedl</snm><fnm>M</fnm></au>
+    <au><snm>Penet</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Content-Based Multimedia Indexing (CBMI), 2014 12th International
+  Workshop on</source>
+  <pubdate>2014</pubdate>
+  <fpage>1</fpage>
+  <lpage>-6</lpage>
+</bibl>
+
+<bibl id="B2">
+  <title><p>TV and Movie Violence: Why watching it is harmful to
+  children</p></title>
+  <source>\url{http://www.ocd.pitt.edu/Files/PDF/Parenting/TvAndMovieViolence.pdf}</source>
+  <note>Accessed: 2015-1-10</note>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Audio-visual content-based violent scene
+  characterization</p></title>
+  <aug>
+    <au><snm>Nam</snm><fnm>J</fnm></au>
+    <au><snm>Alghoniemy</snm><fnm>M</fnm></au>
+    <au><snm>Tewfik</snm><fnm>AH</fnm></au>
+  </aug>
+  <source>Image Processing, 1998. ICIP 98. Proceedings. 1998 International
+  Conference on</source>
+  <pubdate>1998</pubdate>
+  <volume>1</volume>
+  <fpage>353</fpage>
+  <lpage>-357</lpage>
+</bibl>
+
+<bibl id="B4">
+  <title><p>Violence Detection in Movies</p></title>
+  <aug>
+    <au><snm>Liang Hua</snm><fnm>C</fnm></au>
+    <au><snm>Hsu</snm><fnm>HW</fnm></au>
+    <au><snm>Wang</snm><fnm>LY</fnm></au>
+    <au></au>
+    <au><snm>Su</snm><fnm>CW</fnm></au>
+  </aug>
+  <source>Computer Graphics, Imaging and Visualization (CGIV)</source>
+  <pubdate>2011</pubdate>
+  <fpage>119</fpage>
+  <lpage>124</lpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>DOVE: Detection of Movie Violence Using Motion Intensity Analysis
+  on Skin and Blood</p></title>
+  <aug>
+    <au><snm>C.</snm><fnm>C</fnm></au>
+    <au><snm>Dionisio</snm><fnm>J.</fnm></au>
+    <au><snm>Echavez</snm><fnm>M.</fnm></au>
+    <au><snm>Naval.</snm><fnm>P. C.</fnm></au>
+  </aug>
+  <source>Workshops and Demonstrations - ECCV</source>
+  <pubdate>2005</pubdate>
+  <fpage>150</fpage>
+  <lpage>156</lpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>Detecting Violent Scenes in Movies by Auditory and Visual
+  Cues</p></title>
+  <aug>
+    <au><snm>Yu</snm><fnm>G</fnm></au>
+    <au><snm>Wang</snm><fnm>W</fnm></au>
+    <au><snm>Jiang</snm><fnm>S</fnm></au>
+    <au><snm>Huang</snm><fnm>Q</fnm></au>
+    <au><snm>Gao</snm><fnm>W</fnm></au>
+  </aug>
+  <source>Advances in Multimedia Information Processing-PCM</source>
+  <pubdate>2008</pubdate>
+  <fpage>317</fpage>
+  <lpage>326</lpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>Weakly-supervised Violence Detection in Movies with Audio and Video
+  Based Co-training</p></title>
+  <aug>
+    <au><snm>Jian</snm><fnm>L</fnm></au>
+    <au><snm>Wang</snm><fnm>W</fnm></au>
+  </aug>
+  <source>Advances in Multimedia Information Processing-PCM</source>
+  <pubdate>2009</pubdate>
+  <fpage>930</fpage>
+  <lpage>935</lpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Technicolor and Inria/irisa at Mediaeval 2011: Learning Temporal
+  Modality Integration with Bayesian Networks</p></title>
+  <aug>
+    <au><snm>Cédric</snm><fnm>P</fnm></au>
+    <au><snm>Demarty</snm><fnm>CH</fnm></au>
+    <au><snm>Gravier</snm><fnm>G</fnm></au>
+    <au><snm>Gros</snm><fnm>P</fnm></au>
+  </aug>
+  <source>MediaEval Multimedia Benchmark Workshop</source>
+  <pubdate>2011</pubdate>
+</bibl>
+
+<bibl id="B9">
+  <title><p>Action bank: A high-level representation of activity in
+  video</p></title>
+  <aug>
+    <au><snm>Sadanand</snm><fnm>S</fnm></au>
+    <au><snm>Corso</snm><fnm>JJ</fnm></au>
+  </aug>
+  <source>Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference
+  on</source>
+  <pubdate>2012</pubdate>
+  <fpage>1234</fpage>
+  <lpage>-1241</lpage>
+</bibl>
+
+<bibl id="B10">
+  <title><p>Object Bank: A High-level Image Representation for Scene
+  Classification &amp Semantic Feature Sparsification</p></title>
+  <aug>
+    <au><snm>Li Jia</snm><fnm>L</fnm></au>
+    <au><snm>Su</snm><fnm>H</fnm></au>
+    <au><snm>Fei Fei</snm><fnm>L</fnm></au>
+    <au><snm>Xing</snm><fnm>EP</fnm></au>
+  </aug>
+  <source>Advances in Neural Information Processing Systems</source>
+  <pubdate>2010</pubdate>
+  <fpage>1378</fpage>
+  <lpage>1386</lpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>Recognizing Human Actions by Attributes</p></title>
+  <aug>
+    <au><snm>Jingen</snm><fnm>L</fnm></au>
+    <au><snm>Kuipers</snm><fnm>B</fnm></au>
+    <au><snm>Savarese</snm><fnm>S</fnm></au>
+  </aug>
+  <source>IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)</source>
+  <pubdate>2011</pubdate>
+  <fpage>3337</fpage>
+  <lpage>3344</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>A Naive Mid-level Concept-based Fusion Approach to Violence
+  Detection in Hollywood Movies</p></title>
+  <aug>
+    <au><snm>Bogdan</snm><fnm>I</fnm></au>
+    <au><snm>Schluter</snm><fnm>J</fnm></au>
+    <au><snm>Mironica</snm><fnm>I</fnm></au>
+    <au><snm>Schedl</snm><fnm>M</fnm></au>
+  </aug>
+  <source>ACM Conference on International Conference on Multimedia
+  Retrieval</source>
+  <pubdate>2013</pubdate>
+  <fpage>215</fpage>
+  <lpage>222</lpage>
+</bibl>
+
+<bibl id="B13">
+  <title><p>The Vireo Team at MediaEval 2013: Violent Scenes Detection by
+  Mid-level Concepts Learnt from Youtube.</p></title>
+  <aug>
+    <au><snm>Tan</snm><fnm>CC</fnm></au>
+    <au><snm>Ngo</snm><fnm>CW</fnm></au>
+  </aug>
+  <source>MediaEval</source>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B14">
+  <title><p>ConceptNet—a practical commonsense reasoning tool-kit</p></title>
+  <aug>
+    <au><snm>Liu</snm><fnm>H</fnm></au>
+    <au><snm>Singh</snm><fnm>P</fnm></au>
+  </aug>
+  <source>BT technology journal</source>
+  <publisher>Springer</publisher>
+  <pubdate>2004</pubdate>
+  <volume>22</volume>
+  <issue>4</issue>
+  <fpage>211</fpage>
+  <lpage>-226</lpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>Fudan at MediaEval 2013: Violent Scenes Detection Using Motion
+  Features and Part-Level Attributes.</p></title>
+  <aug>
+    <au><snm>Dai</snm><fnm>Q</fnm></au>
+    <au><snm>Tu</snm><fnm>J</fnm></au>
+    <au><snm>Shi</snm><fnm>Z</fnm></au>
+    <au><snm>Jiang</snm><fnm>YG</fnm></au>
+    <au><snm>Xue</snm><fnm>X</fnm></au>
+  </aug>
+  <source>MediaEval</source>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B16">
+  <title><p>Technicolor/INRIA team at the MediaEval 2013 Violent Scenes
+  Detection Task</p></title>
+  <aug>
+    <au><snm>Penet</snm><fnm>C</fnm></au>
+    <au><snm>Demarty</snm><fnm>CH</fnm></au>
+    <au><snm>Gravier</snm><fnm>G</fnm></au>
+    <au><snm>Gros</snm><fnm>P</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>MediaEval 2013 Working Notes</source>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B17">
+  <title><p>FAR at MediaEval 2013 Violent Scenes Detection: Concept-based
+  Violent Scenes Detection in Movies.</p></title>
+  <aug>
+    <au><snm>Sj{\"o}berg</snm><fnm>M</fnm></au>
+    <au><snm>Schl{\"u}ter</snm><fnm>J</fnm></au>
+    <au><snm>Ionescu</snm><fnm>B</fnm></au>
+    <au><snm>Schedl</snm><fnm>M</fnm></au>
+  </aug>
+  <source>MediaEval</source>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B18">
+  <title><p>LIG at MediaEval 2013 Affect Task: Use of a Generic Method and
+  Joint Audio-Visual Words.</p></title>
+  <aug>
+    <au><snm>Derbas</snm><fnm>N</fnm></au>
+    <au><snm>Safadi</snm><fnm>B</fnm></au>
+    <au><snm>Qu{\'e}not</snm><fnm>G</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>MediaEval</source>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B19">
+  <title><p>The AXES submissions at TrecVid 2013</p></title>
+  <aug>
+    <au><snm>Aly</snm><fnm>R</fnm></au>
+    <au><snm>Arandjelovic</snm><fnm>R</fnm></au>
+    <au><snm>Chatfield</snm><fnm>K</fnm></au>
+    <au><snm>Douze</snm><fnm>M</fnm></au>
+    <au><snm>Fernando</snm><fnm>B</fnm></au>
+    <au><snm>Harchaoui</snm><fnm>Z</fnm></au>
+    <au><snm>McGuinness</snm><fnm>K</fnm></au>
+    <au><snm>O'Connor</snm><fnm>NE</fnm></au>
+    <au><snm>Oneata</snm><fnm>D</fnm></au>
+    <au><snm>Parkhi</snm><fnm>OM</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B20">
+  <title><p>Semantic model vectors for complex video event
+  recognition</p></title>
+  <aug>
+    <au><snm>Merler</snm><fnm>M</fnm></au>
+    <au><snm>Huang</snm><fnm>B</fnm></au>
+    <au><snm>Xie</snm><fnm>L</fnm></au>
+    <au><snm>Hua</snm><fnm>G</fnm></au>
+    <au><snm>Natsev</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Multimedia, IEEE Transactions on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2012</pubdate>
+  <volume>14</volume>
+  <issue>1</issue>
+  <fpage>88</fpage>
+  <lpage>-101</lpage>
+</bibl>
+
+<bibl id="B21">
+  <title><p>Distributional structure.</p></title>
+  <aug>
+    <au><snm>Harris</snm><fnm>ZS</fnm></au>
+  </aug>
+  <source>Word</source>
+  <pubdate>1954</pubdate>
+</bibl>
+
+<bibl id="B22">
+  <title><p>Visual categorization with bags of keypoints</p></title>
+  <aug>
+    <au><snm>Csurka</snm><fnm>G</fnm></au>
+    <au><snm>Dance</snm><fnm>C</fnm></au>
+    <au><snm>Fan</snm><fnm>L</fnm></au>
+    <au><snm>Willamowski</snm><fnm>J</fnm></au>
+    <au><snm>Bray</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Workshop on statistical learning in computer vision, ECCV</source>
+  <pubdate>2004</pubdate>
+  <volume>1</volume>
+  <issue>1-22</issue>
+  <fpage>1</fpage>
+  <lpage>-2</lpage>
+</bibl>
+
+<bibl id="B23">
+  <title><p>Efficient visual search of videos cast as text
+  retrieval</p></title>
+  <aug>
+    <au><snm>Sivic</snm><fnm>J</fnm></au>
+    <au><snm>Zisserman</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2009</pubdate>
+  <volume>31</volume>
+  <issue>4</issue>
+  <fpage>591</fpage>
+  <lpage>-606</lpage>
+</bibl>
+
+<bibl id="B24">
+  <title><p>Columbia-UCF TRECVID2010 Multimedia Event Detection: Combining
+  Multiple Modalities, Contextual Concepts, and Temporal Matching.</p></title>
+  <aug>
+    <au><snm>Jiang</snm><fnm>YG</fnm></au>
+    <au><snm>Zeng</snm><fnm>X</fnm></au>
+    <au><snm>Ye</snm><fnm>G</fnm></au>
+    <au><snm>Ellis</snm><fnm>D</fnm></au>
+    <au><snm>Chang</snm><fnm>SF</fnm></au>
+    <au><snm>Bhattacharya</snm><fnm>S</fnm></au>
+    <au><snm>Shah</snm><fnm>M</fnm></au>
+  </aug>
+  <source>TRECVID</source>
+  <pubdate>2010</pubdate>
+</bibl>
+
+<bibl id="B25">
+  <title><p>Representations of keypoint-based semantic concept detection: A
+  comprehensive study</p></title>
+  <aug>
+    <au><snm>Jiang</snm><fnm>YG</fnm></au>
+    <au><snm>Yang</snm><fnm>J</fnm></au>
+    <au><snm>Ngo</snm><fnm>CW</fnm></au>
+    <au><snm>Hauptmann</snm><fnm>AG</fnm></au>
+  </aug>
+  <source>Multimedia, IEEE Transactions on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2010</pubdate>
+  <volume>12</volume>
+  <issue>1</issue>
+  <fpage>42</fpage>
+  <lpage>-53</lpage>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Towards optimal bag-of-features for object categorization and
+  semantic video retrieval</p></title>
+  <aug>
+    <au><snm>Jiang</snm><fnm>YG</fnm></au>
+    <au><snm>Ngo</snm><fnm>CW</fnm></au>
+    <au><snm>Yang</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Proceedings of the 6th ACM international conference on Image and
+  video retrieval</source>
+  <pubdate>2007</pubdate>
+  <fpage>494</fpage>
+  <lpage>-501</lpage>
+</bibl>
+
+<bibl id="B27">
+  <title><p>Beyond bags of features: Spatial pyramid matching for recognizing
+  natural scene categories</p></title>
+  <aug>
+    <au><snm>Lazebnik</snm><fnm>S</fnm></au>
+    <au><snm>Schmid</snm><fnm>C</fnm></au>
+    <au><snm>Ponce</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Computer Vision and Pattern Recognition, 2006 IEEE Computer Society
+  Conference on</source>
+  <pubdate>2006</pubdate>
+  <volume>2</volume>
+  <fpage>2169</fpage>
+  <lpage>-2178</lpage>
+</bibl>
+
+<bibl id="B28">
+  <title><p>Exploiting generative models in discriminative
+  classifiers</p></title>
+  <aug>
+    <au><snm>Jaakkola</snm><fnm>T</fnm></au>
+    <au><snm>Haussler</snm><fnm>D</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Advances in neural information processing systems</source>
+  <publisher>MIT; 1998</publisher>
+  <pubdate>1999</pubdate>
+  <fpage>487</fpage>
+  <lpage>-493</lpage>
+</bibl>
+
+<bibl id="B29">
+  <title><p>Large-scale web video event classification by use of fisher
+  vectors</p></title>
+  <aug>
+    <au><snm>Sun</snm><fnm>C</fnm></au>
+    <au><snm>Nevatia</snm><fnm>R</fnm></au>
+  </aug>
+  <source>Applications of Computer Vision (WACV), 2013 IEEE Workshop
+  on</source>
+  <pubdate>2013</pubdate>
+  <fpage>15</fpage>
+  <lpage>-22</lpage>
+</bibl>
+
+<bibl id="B30">
+  <title><p>Action recognition with improved trajectories</p></title>
+  <aug>
+    <au><snm>Wang</snm><fnm>H</fnm></au>
+    <au><snm>Schmid</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Computer Vision (ICCV), 2013 IEEE International Conference
+  on</source>
+  <pubdate>2013</pubdate>
+  <fpage>3551</fpage>
+  <lpage>-3558</lpage>
+</bibl>
+
+<bibl id="B31">
+  <title><p>Image classification with the fisher vector: Theory and
+  practice</p></title>
+  <aug>
+    <au><snm>S{\'a}nchez</snm><fnm>J</fnm></au>
+    <au><snm>Perronnin</snm><fnm>F</fnm></au>
+    <au><snm>Mensink</snm><fnm>T</fnm></au>
+    <au><snm>Verbeek</snm><fnm>J</fnm></au>
+  </aug>
+  <source>International journal of computer vision</source>
+  <publisher>Springer</publisher>
+  <pubdate>2013</pubdate>
+  <volume>105</volume>
+  <issue>3</issue>
+  <fpage>222</fpage>
+  <lpage>-245</lpage>
+</bibl>
+
+<bibl id="B32">
+  <title><p>Improving the fisher kernel for large-scale image
+  classification</p></title>
+  <aug>
+    <au><snm>Perronnin</snm><fnm>F</fnm></au>
+    <au><snm>S{\'a}nchez</snm><fnm>J</fnm></au>
+    <au><snm>Mensink</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Computer Vision--ECCV 2010</source>
+  <publisher>Springer</publisher>
+  <pubdate>2010</pubdate>
+  <fpage>143</fpage>
+  <lpage>-156</lpage>
+</bibl>
+
+<bibl id="B33">
+  <title><p>{LIBSVM}: A library for support vector machines</p></title>
+  <aug>
+    <au><snm>Chang</snm><fnm>CC</fnm></au>
+    <au><snm>Lin</snm><fnm>CJ</fnm></au>
+  </aug>
+  <source>ACM Transactions on Intelligent Systems and Technology</source>
+  <pubdate>2011</pubdate>
+  <volume>2</volume>
+  <fpage>27:1</fpage>
+  <lpage>-27:27</lpage>
+  <note>Software available at
+  \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}</note>
+</bibl>
+
+<bibl id="B34">
+  <title><p>Early versus late fusion in semantic video analysis</p></title>
+  <aug>
+    <au><snm>Snoek</snm><fnm>CG</fnm></au>
+    <au><snm>Worring</snm><fnm>M</fnm></au>
+    <au><snm>Smeulders</snm><fnm>AW</fnm></au>
+  </aug>
+  <source>Proceedings of the 13th annual ACM international conference on
+  Multimedia</source>
+  <pubdate>2005</pubdate>
+  <fpage>399</fpage>
+  <lpage>-402</lpage>
+</bibl>
+
+<bibl id="B35">
+  <title><p>NII, Japan at MediaEval 2012 Violent Scenes Detection Affect
+  Task.</p></title>
+  <aug>
+    <au><snm>Lam</snm><fnm>V</fnm></au>
+    <au><snm>Le</snm><fnm>DD</fnm></au>
+    <au><snm>Le</snm><fnm>SP</fnm></au>
+    <au><snm>Satoh</snm><fnm>S</fnm></au>
+    <au><snm>Duong</snm><fnm>DA</fnm></au>
+  </aug>
+  <source>MediaEval</source>
+  <pubdate>2012</pubdate>
+</bibl>
+
+<bibl id="B36">
+  <title><p>Introduction to digital speech processing</p></title>
+  <aug>
+    <au><snm>Rabiner</snm><fnm>LR</fnm></au>
+    <au><snm>Schafer</snm><fnm>RW</fnm></au>
+  </aug>
+  <source>Foundations and trends in signal processing</source>
+  <publisher>Now publishers Inc.</publisher>
+  <pubdate>2007</pubdate>
+  <volume>1</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-194</lpage>
+</bibl>
+
+<bibl id="B37">
+  <title><p>The LEAR submission at Thumos 2014</p></title>
+  <aug>
+    <au><snm>Oneata</snm><fnm>D</fnm></au>
+    <au><snm>Verbeek</snm><fnm>J</fnm></au>
+    <au><snm>Schmid</snm><fnm>C</fnm></au>
+  </aug>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B38">
+  <title><p>Imagenet classification with deep convolutional neural
+  networks</p></title>
+  <aug>
+    <au><snm>Krizhevsky</snm><fnm>A</fnm></au>
+    <au><snm>Sutskever</snm><fnm>I</fnm></au>
+    <au><snm>Hinton</snm><fnm>GE</fnm></au>
+  </aug>
+  <source>Advances in neural information processing systems</source>
+  <pubdate>2012</pubdate>
+  <fpage>1097</fpage>
+  <lpage>-1105</lpage>
+</bibl>
+
+<bibl id="B39">
+  <title><p>Imagenet: A large-scale hierarchical image database</p></title>
+  <aug>
+    <au><snm>Deng</snm><fnm>J</fnm></au>
+    <au><snm>Dong</snm><fnm>W</fnm></au>
+    <au><snm>Socher</snm><fnm>R</fnm></au>
+    <au><snm>Li</snm><fnm>LJ</fnm></au>
+    <au><snm>Li</snm><fnm>K</fnm></au>
+    <au><snm>Fei Fei</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE
+  Conference on</source>
+  <pubdate>2009</pubdate>
+  <fpage>248</fpage>
+  <lpage>-255</lpage>
+</bibl>
+
+<bibl id="B40">
+  <title><p>Decaf: A deep convolutional activation feature for generic visual
+  recognition</p></title>
+  <aug>
+    <au><snm>Donahue</snm><fnm>J</fnm></au>
+    <au><snm>Jia</snm><fnm>Y</fnm></au>
+    <au><snm>Vinyals</snm><fnm>O</fnm></au>
+    <au><snm>Hoffman</snm><fnm>J</fnm></au>
+    <au><snm>Zhang</snm><fnm>N</fnm></au>
+    <au><snm>Tzeng</snm><fnm>E</fnm></au>
+    <au><snm>Darrell</snm><fnm>T</fnm></au>
+  </aug>
+  <source>arXiv preprint arXiv:1310.1531</source>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B41">
+  <title><p>Caffe: Convolutional architecture for fast feature
+  embedding</p></title>
+  <aug>
+    <au><snm>Jia</snm><fnm>Y</fnm></au>
+    <au><snm>Shelhamer</snm><fnm>E</fnm></au>
+    <au><snm>Donahue</snm><fnm>J</fnm></au>
+    <au><snm>Karayev</snm><fnm>S</fnm></au>
+    <au><snm>Long</snm><fnm>J</fnm></au>
+    <au><snm>Girshick</snm><fnm>R</fnm></au>
+    <au><snm>Guadarrama</snm><fnm>S</fnm></au>
+    <au><snm>Darrell</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Proceedings of the ACM International Conference on
+  Multimedia</source>
+  <pubdate>2014</pubdate>
+  <fpage>675</fpage>
+  <lpage>-678</lpage>
+</bibl>
+
+<bibl id="B42">
+  <title><p>Scene classification via pLSA</p></title>
+  <aug>
+    <au><snm>Bosch</snm><fnm>A</fnm></au>
+    <au><snm>Zisserman</snm><fnm>A</fnm></au>
+    <au><snm>Mu{\~n}oz</snm><fnm>X</fnm></au>
+  </aug>
+  <source>Computer Vision--ECCV 2006</source>
+  <publisher>Springer</publisher>
+  <pubdate>2006</pubdate>
+  <fpage>517</fpage>
+  <lpage>-530</lpage>
+</bibl>
+
+<bibl id="B43">
+  <title><p>Image classification using random forests and ferns</p></title>
+  <aug>
+    <au><snm>Bosch</snm><fnm>A</fnm></au>
+    <au><snm>Zisserman</snm><fnm>A</fnm></au>
+    <au><snm>Muoz</snm><fnm>X</fnm></au>
+  </aug>
+  <source>Computer Vision, 2007. ICCV 2007. IEEE 11th International Conference
+  on</source>
+  <pubdate>2007</pubdate>
+  <fpage>1</fpage>
+  <lpage>-8</lpage>
+</bibl>
+
+<bibl id="B44">
+  <title><p>Fudan-NJUST at MediaEval 2014: Violent Scenes Detection Using Deep
+  Neural Networks</p></title>
+  <aug>
+    <au><snm>Dai</snm><fnm>Q</fnm></au>
+    <au><snm>Wu</snm><fnm>Z</fnm></au>
+    <au><snm>Jiang</snm><fnm>YG</fnm></au>
+    <au><snm>Xue</snm><fnm>X</fnm></au>
+    <au><snm>Tang</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona,
+  Catalunya, Spain, October 16-17, 2014.</source>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B45">
+  <title><p>FAR at MediaEval 2014 Violent Scenes Detection: A Concept-based
+  Fusion Approach</p></title>
+  <aug>
+    <au><snm>Sj{\"o}berg</snm><fnm>M</fnm></au>
+    <au><snm>Mironica</snm><fnm>I</fnm></au>
+    <au><snm>Schedl</snm><fnm>M</fnm></au>
+    <au><snm>Ionescu</snm><fnm>B</fnm></au>
+  </aug>
+  <source>Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona,
+  Catalunya, Spain, October 16-17, 2014.</source>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B46">
+  <title><p>{NII-UIT} at MediaEval 2014 Violent Scenes Detection Affect
+  Task</p></title>
+  <aug>
+    <au><snm>Lam</snm><fnm>V</fnm></au>
+    <au><snm>Le</snm><fnm>D</fnm></au>
+    <au><snm>Phan</snm><fnm>S</fnm></au>
+    <au><snm>Satoh</snm><fnm>S</fnm></au>
+    <au><snm>Duong</snm><fnm>DA</fnm></au>
+  </aug>
+  <source>Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona,
+  Catalunya, Spain, October 16-17, 2014.</source>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B47">
+  <title><p>MIC-TJU at MediaEval Violent Scenes Detection (VSD)
+  2014</p></title>
+  <aug>
+    <au><snm>Zhang</snm><fnm>B</fnm></au>
+    <au><snm>Yi</snm><fnm>Y</fnm></au>
+    <au><snm>Wang</snm><fnm>H</fnm></au>
+    <au><snm>Yu</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona,
+  Catalunya, Spain, October 16-17, 2014.</source>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B48">
+  <title><p>RECOD at MediaEval 2014: Violent Scenes Detection Task</p></title>
+  <aug>
+    <au><snm>Avila</snm><fnm>S</fnm></au>
+    <au><snm>Moreira</snm><fnm>D</fnm></au>
+    <au><snm>Perez</snm><fnm>M</fnm></au>
+    <au><snm>Moraes</snm><fnm>D</fnm></au>
+    <au><snm>Cota</snm><fnm>I</fnm></au>
+    <au><snm>Testoni</snm><fnm>V</fnm></au>
+    <au><snm>Valle</snm><fnm>E</fnm></au>
+    <au><snm>Goldenstein</snm><fnm>S</fnm></au>
+    <au><snm>Rocha</snm><fnm>A</fnm></au>
+  </aug>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B49">
+  <title><p>ViVoLab and CVLab-MediaEval 2014: Violent Scenes Detection Affect
+  Task</p></title>
+  <aug>
+    <au><snm>Cast{\'a}n</snm><fnm>D</fnm></au>
+    <au><snm>Rodr{\'\i}guez</snm><fnm>M</fnm></au>
+    <au><snm>Ortega</snm><fnm>A</fnm></au>
+    <au><snm>Orrite</snm><fnm>C</fnm></au>
+    <au><snm>Lleida</snm><fnm>E</fnm></au>
+  </aug>
+  <source>Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona,
+  Catalunya, Spain, October 16-17, 2014.</source>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B50">
+  <title><p>TUB-IRML at MediaEval 2014 Violent Scenes Detection Task: Violence
+  Modeling through Feature Space Partitioning</p></title>
+  <aug>
+    <au><snm>Acar</snm><fnm>E</fnm></au>
+    <au><snm>Albayrak</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona,
+  Catalunya, Spain, October 16-17, 2014.</source>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B51">
+  <title><p>MTM at MediaEval 2014 Violence Detection Task</p></title>
+  <aug>
+    <au><snm>Nascimento Teixeira</snm><fnm>B</fnm></au>
+  </aug>
+  <source>Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona,
+  Catalunya, Spain, October 16-17, 2014.</source>
+  <pubdate>2014</pubdate>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
