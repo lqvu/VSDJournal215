@@ -132,13 +132,13 @@ addressref={aff2},
 email={ledduy@nii.ac.jp}
 ]{\inits{DL}\fnm{Duy-Dinh} \snm{Le}}
 \author[
-addressref={aff2},
-email={satoh@nii.ac.jp}
-]{\inits{SS}\fnm{Shin'ichi} \snm{Satoh}}
-\author[
 addressref={aff3},
 email={ducda@uit.edu.vn}
 ]{\inits{DD}\fnm{Duc Anh} \snm{Duong}}
+\author[
+addressref={aff2},
+email={satoh@nii.ac.jp}
+]{\inits{SS}\fnm{Shin'ichi} \snm{Satoh}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -207,7 +207,7 @@ email={ducda@uit.edu.vn}
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-	Violent scene detection (VSD) is a challenging problem because of the heterogeneous content, large variations in video quality, high semantic meaning of the concepts. In the last few years, combining multiple features from multi-modalities is proven as an effective strategy for a wide range of video classification tasks and almost existing works have focused on general multimedia event detection (MED), the specific event detection like VSD has been comparatively less studied. In this work, we try to study the value of multi features and combination of these features in a violent scene detection system. We rigorously analyze and combine a set of low-level features and deep learning feature that capture appearance, color, texture, motion and audio in videos. We also evaluate the utility of mid-level visual information obtained from detecting related violent concepts. Experiments are performed on MediaEval VSD 2014 dataset, made publicly available. Results show the performance of visual and motion features are better than audio features. The performance of mid-level features was nearly as good as that of low-level visual features. Experiments with a number of fusion methods show that all single features are complementary and help to improve overall performance. This study also provides an empirical foundation for selecting feature sets that are capable of dealing with heterogeneous content data as violent scenes in movies.
+	Violent scene detection (VSD) is a challenging problem because of the heterogeneous content, large variations in video quality, high semantic meaning of the concepts. In the last few years, combining multiple features from multi-modalities is proven as an effective strategy for a wide range of video classification tasks and almost existing works have focused on general multimedia event detection (MED), the specific event detection like VSD has been comparatively less studied. In this work, we evaluate the value of multi features and combination of these features in a violent scene detection system. We rigorously analyze and combine a set of low-level features and deep learning feature that capture appearance, color, texture, motion and audio in videos. We also evaluate the utility of mid-level visual information obtained from detecting related violent concepts. Experiments are performed on MediaEval VSD 2014 dataset, which are made publicly available. Results show the performance of visual and motion features are better than audio features. The performance of mid-level features was nearly as good as that of low-level visual features. Experiments with a number of fusion methods show that all single features are complementary and help to improve overall performance. This study also provides an empirical foundation for selecting feature sets that are capable of dealing with heterogeneous content data as violent scenes in movies.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -277,15 +277,7 @@ email={ducda@uit.edu.vn}
 
 Nowadays, the movie industry generates thousands of movies each year. However, not all movies are suitable for young people (especially children, teenagers, e.g.) to watch, because they might have violent contents.   The research from University of Pittsburgh \cite{TVMovieViolence} reports that watching violence in movies or TV programs tends to make children more aggressive and leads to unhealthy attitudes. It is crucial to have violent scene detection (VSD) system which enables the parents to choose movies that are suitable for their children. More general, for content provider, the violent scene detection technique can be used to assist in movie rating; for general end users, it can block the violent content in client terminal devices. 
 
-Detecting violent scene is a challenging task mainly due to the large variation of violence concept and the semantic gap between the concept and low-level features provided in the media. To capture violence insights, multiple features (e.g. global or local static visual features, motion-based featuers, and audio features) are extracted for learning and prediction. Besides, to narrow the semantic gap, a set of various mid-level concepts and their spatial temporal relationships can be used to characterize violence e.g. {\bf object-based concepts}: blood,  gun, cold arm, firearm; {\bf action-based concepts}: fighting, running, shooting, etc.; {\bf activity-based concepts}: car chase, boat chase; {\bf scene-based concepts}: gory scene, overcast, scene; {\bf sound-based concepts} such as gun shot, scream, explosion. Figure~\ref{fig:exampleVS} demonstrate an example of violent scene in a Hollywood movie. However, how to precisely detect mid-level concepts and efficiently utilize their relationships is yet another challenging and unsolved problem.
-\begin{figure*}[!t]
-	\centering
-	\includegraphics[width=2\linewidth]{Images/SystemOverview.png}
-	\caption{Overview of violent scene detection system.}
-	\label{fig:systemoverview}
-\end{figure*}
-
-Given a movie as input, the expected output of a VSD system is all shots and segments having violent information. A general framework contains 4 main processing steps: video segmentation, feature extraction, learning models, and prediction. In the first step, the input movie is divided into fundamental processing units i.e. video shots. Then, features are extracted from the shots in second step. The goal of this step is to extract meaningful features which will be used for learning and predicting concepts in shots in later steps. Related studies for similar system (e.g. multimedia event detection, action recognition, scene classification) have shown that selecting relevant features and their combination is essential for accurate detection.
+Given a movie as input, the expected output of a VSD system is all shots and segments having violent information. A general framework \cite{demarty2014benchmarking,myers2014evaluating,oh2014multimedia}contains 4 main processing steps: video segmentation, feature extraction, learning models, and prediction. In the first step, the input movie is divided into fundamental processing units i.e. video shots. Then, features are extracted from the shots in second step. The goal of this step is to extract meaningful features which will be used for learning and predicting concepts in shots in later steps. Related studies for similar system (e.g. multimedia event detection, action recognition, scene classification) have shown that selecting relevant features is essential for accurate detection.
 \begin{figure*}
 	\centering
 	\includegraphics[width=2\linewidth]{Images/Framework1.png}
@@ -293,8 +285,15 @@ Given a movie as input, the expected output of a VSD system is all shots and seg
 	\label{fig:framework}
 \end{figure*}
 
+%Detecting violent scene is a challenging task mainly due to the large variation of violence concept and the semantic gap between the concept and low-level features provided in the media. 
+In this paper, we evaluate various types of features and their combinations especially for VSD. To capture violence insights, multiple features \cite{demarty2014benchmarking} (e.g. global or local static visual features, motion-based featuers, and audio features) are extracted for learning and prediction. Besides, to narrow the semantic gap, a set of various mid-level concepts and their spatial temporal relationships are used to characterize violence e.g. {\bf object-based concepts}: blood,  gun, cold arm, firearm; {\bf action-based concepts}: fighting, running, shooting, etc.; {\bf activity-based concepts}: car chase, boat chase; {\bf scene-based concepts}: gory scene, overcast, scene; {\bf sound-based concepts} such as gun shot, scream, explosion. Figure~\ref{fig:exampleVS} demonstrate an example of violent scene in a Hollywood movie. %However, how to precisely detect mid-level concepts and efficiently utilize their relationships is yet another challenging and unsolved problem.
+\begin{figure*}[!t]
+	\centering
+	\includegraphics[width=2\linewidth]{Images/SystemOverview.png}
+	\caption{Overview of violent scene detection system.}
+	\label{fig:systemoverview}
+\end{figure*}
 
-In this paper, we evaluate various types of features and their combinations for VSD. 
 \begin{itemize}
 	\item {\bf Visual features.} We select following features for evaluation: color moments, color histogram, edge orientation histogram, and local binary patterns, SIFT, Color-SIFT, Opponent-SIFT. Visual features are expected to be able to convey visual characteristics of the original violence concept, the object-based concepts, and the scene-based concepts.
 	\item {\bf Audio feature.} We use the standard MFCC as audio feature. It is used for capturing specific sound signals in violent scenes to discriminate them from non-violent scenes (e.g. sounds of gun shots, a scream, or explosions). 
@@ -342,7 +341,7 @@ Besides global and local features, other features are also supported in our eval
 %\subsection{Feature representation}
 As for local features, we employed the popular bag-of-words (BOW) model to generate a fixed-length feature representation from its local descriptors. The model was first applied to represent text document as mentioned in \cite{harris1954distributional}. It was adopted to represent image by Csurka et al. \cite{csurka2004visual}. Its extension to motion and audio features is also straightforward as described in \cite{sivic2009efficient} and \cite{jiang2010columbia}. 
 
-We follow the experiment setup in \cite{jiang2010representations} to implement our bag-of-words models. We fix the codebook size to 1000 because we observe that in \cite{jiang2010representations} the performance does not significantly improve when the larger codebooks were used. On the other hand, smaller codebook can significantly reduce the computational time for feature encoding as well as feature learning. In order to train the codebook, we randomly select 1M local descriptors and cluster using the K-means algorithm. The local descriptors are assigned to each codeword in a soft-weighting manner \cite{jiang2007towards} to improve the discriminative of the encoded feature.
+We follow the experiment setup in \cite{jiang2010representations} to implement our bag-of-words models. We fix the codebook size to 1,000 because we observe that in \cite{jiang2010representations} the performance does not significantly improve when the larger codebooks were used. On the other hand, smaller codebook can significantly reduce the computational time for feature encoding as well as feature learning. In order to train the codebook, we randomly select 1M local descriptors and cluster using the K-means algorithm. The local descriptors are assigned to each codeword in a soft-weighting manner \cite{jiang2007towards} to improve the discriminative of the encoded feature.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=1\linewidth]{Images/Bow.png}
@@ -365,12 +364,12 @@ Different from bag-of-word encoding, which often employs KMeans to train the cod
 
 In our experiment, we set the number of Gaussians in the GMM model to K = 256. Then we randomly select 1,000,000 local descriptors for training the model. As suggested in \cite{perronnin2010improving}, it is better to reduce the local feature dimension using Principal Component Analysis (PCA). Normalization of output feature is also very important for Fisher vector. Following the recommendation in \cite{perronnin2010improving}, we apply power normalization with $\alpha=0.5$, and then L2-normalization to the Fisher vector.
 
-\subsection{Feature classification}
+\subsection{Training violent classifiers}
 
 %\subsection{Learning Classification}
-LibSVM \cite{LibSVM} is used for training and testing at shot level. To generate training data, shots which fall into positive segments more than 80\% will be considered as positive shots. The remaining shots are considered as negative. Extracted features are scaled to [0, 1] using the svm-scale tool of LibSVM. We use chi-square kernel to calculate the distance matrix. The optimal (C;g) parameters for learning SVM classifiers are found by conducting a grid search with 5-fold cross validation on the original dataset. For features that are encoded using the Fisher vector encoding, we also use LibSVM but with linear kernel. In this case, we also do a 5-fold cross-validation to obtain the learning parameter C.
+LibSVM \cite{LibSVM} is used for training and testing at shot level. To generate training data, shots which fall into positive segments more than 80\% will be considered as positive shots. The remaining shots are considered as negative. Extracted features are scaled to [0, 1] using the svm-scale tool of LibSVM. We use $\chi^2$ kernel to calculate the distance matrix. The optimal (C;g) parameters for learning SVM classifiers are found by conducting a grid search with 5-fold cross validation on the original dataset. For features that are encoded using the Fisher vector encoding, we also use LibSVM but with linear kernel. In this case, we also do a 5-fold cross-validation to obtain the learning parameter C.
 
-\subsection{Feature fusion}
+\subsection{Late fusion}
 Fusing information coming from different media seems a natural way to handle multimedia content. Fusing of multi-modal information has been widely used for tasks including multimedia event detection, video search, etc. Naturally different semantic events, types of multimedia data have their own characteristics so their fusion strategies could be different also. In this evaluation, we simply use the late fusion with average weighting scheme for all features \cite{snoek2005early} because our focus is the performance comparison of features for VSD.
 
 \section{VSD features}
@@ -392,7 +391,7 @@ We evaluate both global features and local features. We selected the best config
 For local feature, we use popular SIFT with both Hessian Laplace interest points and dense sampling at multiple scales. For dense sampling, besides normal SIFT descriptor, we also use Opponent-SIFT and C-SIFT. For Harlap interest point detector, we only use normal SIFT descriptor.	
 
 \subsubsection{Motion feature}
-As shown by Wang et al. \cite{wang2013action}, Dense Trajectory feature is one of the best approaches for action classification. Dense Trajectory has an efficient solution to remove camera motion. In the Hollywood movies, there are a lot of action with different movie effects in the violent scenes. We try to apply the dense trajectory  to capture these information. Trajectories are obtained by tracking the densely sampled points in the optical flow fields. As it is suggested by Wang \cite{wang2013action}, we use Histogram of Oriented Gradient (HOG), Histogram of Optical Flow (HOF) and Motion Boundary Histogram (MBH) to describe each trajectory. HOG is used to capture appearance characteristics of the moving object while HOF captures the speed of the moving object. The last descriptor, MBH, can capture boundary of the motion and is good for handling camera motion.
+As shown by Wang et al. \cite{wang2013action}, Dense Trajectory feature is one of the best approaches for action classification. Dense Trajectory has an efficient solution to remove camera motion. In the Hollywood movies, there are a lot of action with different movie effects in the violent scenes. We apply the dense trajectory  to capture these information. Trajectories are obtained by tracking the densely sampled points in the optical flow fields. As it is suggested by Wang \cite{wang2013action}, we use Histogram of Oriented Gradient (HOG), Histogram of Optical Flow (HOF) and Motion Boundary Histogram (MBH) to describe each trajectory. HOG is used to capture appearance characteristics of the moving object while HOF captures the speed of the moving object. The last descriptor, MBH, can capture boundary of the motion and is good for handling camera motion.
 
 \subsubsection{Audio feature}
 We use the popular Mel-frequency Cepstral Coeffcients (MFCC) \cite{rabiner2007introduction} for extracting audio feature. We choose a window size of 25 ms for audio segment and a step size of 10 ms. The 13-dimensional MFCC vectors along with each first and second derivatives are used for representing each audio segment. Raw MFCC features are also encoded using BoW. These configurations are also used by AXES/LEAR team in TRECVID Multimedia Event Detection 2013 \cite{aly2013axes} and THUMOS Challenge 2014 \cite{oneata2014lear} in which they won the best performance.
@@ -414,7 +413,7 @@ Attributes related to violence concept are manually defined. We used seven relat
 \subsubsection{Out domain: Deep learning feature}
 Mid-level features can also be learnt from out of domain concepts such as ObjectBank \cite{15} or ActionBank \cite{23}. However, learning off-the-shelf concepts is less effective using shallow methods. Recently, Krizhevsky \cite{krizhevsky2012imagenet} proposed a deep learning framework which significantly outperformed previous state-of-the-art methods on the ImageNet benchmark \cite{deng2009imagenet}. One interesting thing is this deep learning model can be used to extract feature on other benchmarks as an off-the-shelf object detector \cite{donahue2013decaf}. 
 
-In this evaluation, we adopt the popular DeepCaffe \cite{jia2014caffe} framework for extracting keyframe features. We use the pre-trained deep model provided by DeepCaffe. This model was trained on ImageNet 1000 concepts \cite{deng2009imagenet}. The detail protocol for training the model is described in \cite{jia2014caffe}. As suggested in \cite{krizhevsky2012imagenet}, we select the last three fully-connected layers for feature representation. The third and second to last layer has 4,096 dimension while the last layer has 1,000 dimension corresponding to 1,000 concept categories in the ImageNet dataset.
+In this evaluation, we adopt the popular DeepCaffe \cite{jia2014caffe} framework for extracting keyframe features. We use the pre-trained deep model provided by DeepCaffe. This model was trained on ImageNet 1,000 concepts \cite{deng2009imagenet}. The detail protocol for training the model is described in \cite{jia2014caffe}. As suggested in \cite{krizhevsky2012imagenet}, we select the last three fully-connected layers for feature representation. The third and second to last layer has 4,096 dimension while the last layer has 1,000 dimension corresponding to 1,000 concept categories in the ImageNet dataset.
 
 \section{Experiments}
 \subsection{Dataset}
@@ -477,18 +476,18 @@ In this paper, we used the dataset from MediaEval  Affect Task 2014 \cite{demart
 \end{table}
 
 \begin{itemize}
-	\item DEVEL (Table~\ref{devel-dataset}): this is training dataset; used to train violence classifiers; has 24 movies, total 34779 shots, 48.29 hours. 
-	\item TEST (Table~\ref{test-dataset}): this is testing dataset; used to test and evaluate the system; has 7 movies, total 10006 shots and 13.89 hours.
+	\item DEVEL (Table~\ref{devel-dataset}): this is training dataset; used to train violence classifiers; has 24 movies, total 34,779 shots, 48.29 hours. 
+	\item TEST (Table~\ref{test-dataset}): this is testing dataset; used to test and evaluate the system; has 7 movies, total 10,006 shots and 13.89 hours.
 \end{itemize}
-Total duration are about 62.18 hours, with 44.785 shots. To reduce the computation cost, when we extract keyframes, we resize the keyframes to 500x400 pixels.
+Total duration are about 62.18 hours, with 44,785 shots. To reduce the computation cost, when we extract keyframes, we resize the keyframes to 500x400 pixels.
 \subsection{Groundtruth}
 By using subjective definition in MediaEval VSD 2014\cite{demarty2014benchmarking}, the ground truth is created by human assessors and provided by the MediaEval organizers. In addition to segments containing physical violence, annotations also include the following high-level concepts: presence of blood, fights, presence of fire, presence of guns, presence of cold arms, car chases and gory scenes, for the visual modality; gunshot, explosion and scream for the audio modality. The ground truth data are provides in segment. To generate training data, we consider the positive shots are the ones which have 80\% overlapping with ground truth segments.
 \subsection{Evaluation metrics}
-We use mean average precision (mAP), an evaluation metric that is widely used for classification and retrieval systems. The mAP is computed based on the ranked list of shots returned by the detection system and the ground truth provided by the task organizers. Mean average precision (mAP) is calculated as below:
+As evaluation metric, we used MediaEval VSD official metric (MAP2014-mean average precision, 2014 version). This is an adapted version of mean average precision (MAP). The MAP2014 is computed based on the ranked list of shots returned by the detection system and the ground truth provided by the task organizers. Mean average precision for MediaEval VSD  is calculated as below:
 \[
 MAP=\ \frac{\sum_{v=1}^VAP(v)}{V},
 \]
-where V is number of test videos and AP is average precision for each video. We report the results using two measures: MAP2014 and MAP100. MAP2014 refers to the above MAP formula while MAP100 refers to the MAP calculated at the first 100 shots.
+where V is number of test videos and AP is average precision for each video. MediaEval VSD Organizers define the average precision measure as follows: all segments marked as violent by the algorithm under consideration are sorted in descending order, according to the given confidence scores. An algorithm’s prediction of violence is considered a hit if the predicted segment overlaps with the corresponding ground truth segment by more than 50\% (or the other way round). To counteract the above mentioned problem when predicting many short segments, several hits on the same ground truth segment only count as one true positive. The others are ignored, thus not counted as false positives either.
 \subsection{Results and comparisons}
 \subsubsection{Global features}
 \begin{table}
@@ -528,32 +527,16 @@ LBP often captures more information than EOH. It can also utilize the texture ch
 	\begin{tabular}{llccc}
 		%\toprule
 		\hline
-		Keypoint descriptor & Keypoint detector & Spatial information & MAP2014 & MAP-AT100 \\ \hline
+		Keypoint descriptor & Keypoint detector & MAP2014 \\ \hline
 		%\midrule
-		RGB SIFT & Dense6mul & 2x2   & 45.06\% & 66.82\% \\
-		SIFT  & Dense6mul & 2x2   & 44.33\% & 66.12\% \\
-		RGB SIFT & Dense6mul & 3x1   & 42.08\% & 66.53\% \\
-		RGB SIFT & Harlap6mul & 3x1   & 39.34\% & 60.98\% \\
-		SIFT  & Harlap6mul & 3x1   & 38.99\% & 61.12\% \\
-		RGB SIFT & Dense6mul & 1x1   & 38.86\% & 63.65\% \\
-		SIFT  & Dense6mul & 3x1   & 37.36\% & 64.00\% \\
-		SIFT  & Harlap6mul & 2x2   & 37.25\% & 56.18\% \\
-		Color SIFT & Dense6mul & 3x1   & 35.44\% & 58.10\% \\
-		Opponent SIFT & Dense6mul & 3x1   & 34.60\% & 60.58\% \\
-		SIFT  & Harlap6mul & 1x1   & 34.29\% & 55.18\% \\
-		Opponent SIFT & Dense6mul & 2x2   & 34.18\% & 60.20\% \\
-		RGB SIFT & Harlap6mul & 2x2   & 33.89\% & 53.92\% \\
-		SIFT  & Dense6mul & 1x1   & 33.82\% & 59.40\% \\
-		Color SIFT & Dense6mul & 2x2   & 33.38\% & 56.51\% \\
-		RGB SIFT & Harlap6mul & 1x1   & 32.82\% & 53.20\% \\
-		Opponent SIFT & Harlap6mul & 3x1   & 31.43\% & 53.43\% \\
-		Opponent SIFT & Dense6mul & 1x1   & 31.02\% & 59.42\% \\
-		Opponent SIFT & Harlap6mul & 1x1   & 30.38\% & 52.67\% \\
-		Opponent SIFT & Harlap6mul & 2x2   & 29.85\% & 51.82\% \\
-		Color SIFT & Dense6mul & 1x1   & 29.71\% & 52.18\% \\
-		Color SIFT & Harlap6mul & 2x2   & 29.67\% & 53.64\% \\
-		Color SIFT & Harlap6mul & 3x1   & 29.23\% & 53.34\% \\
-		Color SIFT & Harlap6mul & 1x1   & 27.59\% & 51.91\% \\ \hline
+		RGB SIFT & Dense6mul & 46.56\% \\
+		SIFT  & Dense6mul & 41.85\% \\
+		SIFT  & Harlap6mul & 41.49\% \\
+		RGB SIFT & Harlap6mul & 40.67\% \\
+		Opponent SIFT & Dense6mul  & 34.29\% \\
+		Color SIFT & Dense6mul  & 34.22\% \\
+		Opponent SIFT & Harlap6mul & 31.38\% \\
+		Color SIFT & Harlap6mul & 30.13\% \\
 		%\bottomrule
 	\end{tabular}%
 	\label{tab:local}%
@@ -572,11 +555,11 @@ Performance evaluation of local image features is shown in Table \ref{tab:motion
 	\begin{tabular}{lccc}
 		%\toprule
 		\hline
-		Descriptor & MAP2014 & MAP-AT100 \\ \hline
+		Descriptor & MAP2014 \\ \hline
 		%\midrule
-		HoG\_HoF & 42.22\% & 63.68\% \\ 
-		MBH   & 48.15\% & 67.93\% \\
-		HoG\_HoF\_MBH & 46.52\% & 67.78\% \\ \hline
+		HoG\_HoF & 42.22\% \\ 
+		MBH   & 48.15\% \\
+		HoG\_HoF\_MBH & 46.52\% \\ \hline
 		%\bottomrule
 	\end{tabular}%
 	\label{tab:motion_bow}%
@@ -589,12 +572,12 @@ Performance evaluation of local image features is shown in Table \ref{tab:motion
 	\begin{tabular}{lcc}
 		%\toprule
 		\hline
-		Feature & MAP2014 & MAP-AT100 \\ \hline
-		VSD	attributes & 34.99\% & 59.71\% \\ \hline
+		Feature & MAP2014 \\ \hline
+		VSD	attributes & 34.99\% \\ \hline
 		%\midrule
-		\textbf{Deep feature (layer 7)} &\textbf{ 48.33}\% & \textbf{69.66}\% \\
-		Deep feature (layer 6) & 41.78\% & 65.18\% \\
-		Deep feature (layer 8) & 33.80\% & 55.41\% \\ \hline
+		\textbf{Deep feature (layer 7)} &\textbf{ 48.33}\% \\
+		Deep feature (layer 6) & 41.78\% \\
+		Deep feature (layer 8) & 33.80\% \\ \hline
 		%\bottomrule
 	\end{tabular}%
 	\label{tab:midlevel}%
@@ -613,10 +596,10 @@ It is well-known that Fisher vector is more efficient and effective than the tra
 	\caption{Performance comparison of Bag-of-words and Fisher vector encoding.}
 	\begin{tabular}{lcccc}
 		\hline
-		szFeature & BoW\_MAP2014 & FV\_MAP2014 & BoW\_MAP-AT100 & FV\_MAP-AT100 \\ \hline
-		Motion feature (Densetrajectories + HOGHOFMBH) & 46.52\% & 50.77\% & 67.78\% & 73.23\% \\
-		Local features (SIFT + Dense6mul) & 33.82\% & 29.21\% & 59.40\% & 58.47\% \\
-		Audio feature (MFCC) & 28.32\% & 28.32\% & 49.40\% & 53.42\% \\ \hline
+		szFeature & BoW\_MAP2014 & FV\_MAP2014 \\ \hline
+		Motion feature (Densetrajectories + HOGHOFMBH) & 46.52\% & 50.77\% \\
+		Local features (SIFT + Dense6mul) & 33.82\% & 29.21\% \\
+		Audio feature (MFCC) & 28.32\% & 28.32\% \\ \hline
 	\end{tabular}%
 	\label{tab:bow_fv}%
 \end{table*}%
@@ -631,17 +614,16 @@ In the bottom half of Table \ref{tab:summary}, we also present the performance c
 	\caption{Summary of performance of each feature and their combination using late fusion.}
 	\begin{tabular}{lcc}
 		\hline
-		Feature types & MAP2014 & MAP-AT100 \\ \hline
-		Motion (FV) & 50.77\% & 73.23\% \\
-		Deep feature & 48.33\% & 69.66\% \\
-		%Motion (BoW) & 48.15\% & 67.93\% \\
-		Local & 45.06\% & 66.82\% \\
-		Attribute & 34.99\% & 59.71\% \\
-		Global & 31.18\% & 52.36\% \\
-		Audio & 28.32\% & 49.40\% \\  \hline
-		\textbf{Local + Motion + Deep} & \textbf{0.551664}& \textbf{0.779381} \\
-		All best single features & 0.525176 & 0.780217 \\
-		All features & 0.459926 & 0.705314 \\ \hline
+		Feature types & MAP2014 \\ \hline
+		Motion (FV) & 50.77\% \\
+		Deep feature & 48.33\% \\
+		Local & 46.56\% \\
+		Attribute & 34.99\% \\
+		Global & 31.18\% \\
+		Audio & 28.32\% \\  \hline
+		\textbf{Local + Motion + Deep} & \textbf{0.551664} \\
+		All best single features & 0.525176 \\
+		All features & 0.459926 \\ \hline
 	%	All locals (BoW) & 0.44155 & 0.677429 \\ \hline
 	\end{tabular}%
 	\label{tab:summary}%
@@ -666,15 +648,15 @@ Comparing to the remaining teams, our system achieved a much stronger performanc
 	\caption{Comparison with MediaEval teams, sorted by MAP2014.}
 	\begin{tabular}{lcc}
 		\hline
-		MediaEval VSD Team & MAP2014 & MAP-AT100 \\ \hline
-		Fudan \cite{2014fudan} & 63.0\% & 75.1\% \\
-		\textbf{NII-UIT} \cite{2014nii} (\textbf{Ours}) & \textbf{55.2}\% & \textbf{77.9}\% \\
-		FAR \cite{2014far} & 45.1\% & 59.4\% \\
-		MIC-TJU \cite{2014mic} & 44.6\% & 65.1\% \\
-		Recod \cite{avila2014recod} & 37.6\% & 62.2\% \\
-		VIVOLAB \cite{2014vivolab} & 17.8\% & 46.2\% \\
-		TUB-IRML \cite{2014tub} & 17.2\% & 40.9\% \\
-		MTMDCC \cite{2014mtm} & 2.6\% & 16.5\% \\ \hline
+		MediaEval VSD Team & MAP2014 \\ \hline
+		Fudan \cite{2014fudan} & 63.0\% \\
+		\textbf{NII-UIT} \cite{2014nii} (\textbf{Ours}) & \textbf{55.2}\% \\
+		FAR \cite{2014far} & 45.1\% \\
+		MIC-TJU \cite{2014mic} & 44.6\% \\
+		Recod \cite{avila2014recod} & 37.6\% \\
+		VIVOLAB \cite{2014vivolab} & 17.8\% \\
+		TUB-IRML \cite{2014tub} & 17.2\% \\
+		MTMDCC \cite{2014mtm} & 2.6\% \\ \hline
 	\end{tabular}%
 	\label{tab:mediaeval}%
 \end{table}%
