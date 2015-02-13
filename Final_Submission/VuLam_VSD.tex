@@ -188,7 +188,7 @@ email={satoh@nii.ac.jp}
 
 \begin{artnotes}
 %\note{Sample of title note}     % note to the article
-\note[id=n1]{Equal contributor} % note, connected to author
+%\note[id=n1]{Equal contributor} % note, connected to author
 \end{artnotes}
 
 %\end{fmbox}% comment this for two column layout
@@ -207,7 +207,7 @@ email={satoh@nii.ac.jp}
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-	Violent scene detection (VSD) is a challenging problem because of the heterogeneous content, large variations in video quality, high semantic meaning of the concepts. In the last few years, combining multiple features from multi-modalities is proven as an effective strategy for a wide range of video classification tasks and almost existing works have focused on general multimedia event detection (MED), the specific event detection like VSD has been comparatively less studied. In this work, we evaluate the value of multi features and combination of these features in a violent scene detection system. We rigorously analyze and combine a set of low-level features and deep learning feature that capture appearance, color, texture, motion and audio in videos. We also evaluate the utility of mid-level visual information obtained from detecting related violent concepts. Experiments are performed on MediaEval VSD 2014 dataset, which are made publicly available. Results show the performance of visual and motion features are better than audio features. The performance of mid-level features was nearly as good as that of low-level visual features. Experiments with a number of fusion methods show that all single features are complementary and help to improve overall performance. This study also provides an empirical foundation for selecting feature sets that are capable of dealing with heterogeneous content data as violent scenes in movies.
+	Violent scene detection (VSD) is a challenging problem because of the heterogeneous content, large variations in video quality, high semantic meaning of the concepts. In the last few years, combining multiple features from multi-modalities is proven as an effective strategy for a wide range of general multimedia event detection (MED), but the specific event detection like VSD has been comparatively less studied. In this work, we evaluate the value of multi features and combination of these features in a violent scene detection system. We rigorously analyze and combine a set of low-level features and deep learning feature that capture appearance, color, texture, motion and audio in videos. We also evaluate the utility of mid-level visual information obtained from detecting related violent concepts. Experiments are performed on MediaEval VSD 2014 dataset, which are made publicly available. Results show the performance of visual and motion features are better than audio features. The performance of mid-level features was nearly as good as that of low-level visual features. Experiments with a number of fusion methods show that all single features are complementary and help to improve overall performance. This study also provides an empirical foundation for selecting feature sets that are capable of dealing with heterogeneous content data as violent scenes in movies.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -286,7 +286,7 @@ Given a movie as input, the expected output of a VSD system is all shots and seg
 \end{figure*}
 
 %Detecting violent scene is a challenging task mainly due to the large variation of violence concept and the semantic gap between the concept and low-level features provided in the media. 
-In this paper, we evaluate various types of features and their combinations especially for VSD. To capture violence insights, multiple features \cite{demarty2014benchmarking} (e.g. global or local static visual features, motion-based featuers, and audio features) are extracted for learning and prediction. Besides, to narrow the semantic gap, a set of various mid-level concepts and their spatial temporal relationships are used to characterize violence e.g. {\bf object-based concepts}: blood,  gun, cold arm, firearm; {\bf action-based concepts}: fighting, running, shooting, etc.; {\bf activity-based concepts}: car chase, boat chase; {\bf scene-based concepts}: gory scene, overcast, scene; {\bf sound-based concepts} such as gun shot, scream, explosion. Figure~\ref{fig:exampleVS} demonstrate an example of violent scene in a Hollywood movie. %However, how to precisely detect mid-level concepts and efficiently utilize their relationships is yet another challenging and unsolved problem.
+In this paper, we focus on the feature extraction step, we evaluate various types of features and their combinations especially for VSD. To capture violence insights, multiple features \cite{demarty2014benchmarking} (e.g. global or local static visual features, motion-based featuers, and audio features) are extracted for learning and prediction. Besides, to narrow the semantic gap, a set of various mid-level concepts and their spatial temporal relationships are used to characterize violence e.g. {\bf object-based concepts}: blood,  gun, cold arm, firearm; {\bf action-based concepts}: fighting, running, shooting, etc.; {\bf activity-based concepts}: car chase, boat chase; {\bf scene-based concepts}: gory scene, overcast, scene; {\bf sound-based concepts} such as gun shot, scream, explosion. Figure~\ref{fig:exampleVS} demonstrate an example of violent scene in a Hollywood movie. %However, how to precisely detect mid-level concepts and efficiently utilize their relationships is yet another challenging and unsolved problem.
 \begin{figure*}[!t]
 	\centering
 	\includegraphics[width=2\linewidth]{Images/SystemOverview.png}
@@ -299,7 +299,7 @@ In this paper, we evaluate various types of features and their combinations espe
 	\item {\bf Audio feature.} We use the standard MFCC as audio feature. It is used for capturing specific sound signals in violent scenes to discriminate them from non-violent scenes (e.g. sounds of gun shots, a scream, or explosions). 
 	\item {\bf Motion features.} We employ Dense Trajectory feature with Motion Boundary Histogram (MBH), Histograms of Oriented Gradients (HoG), and Histograms of Optical Flow (HoF) as features in presentation of action-based and activity-based concepts. This is to take the advantages of videos compared to static images.  
 	\item {\bf Mid-level based feature.} To narrow the semantic gap, we use mid-level features to describe the original violence concept. Scores from classifiers of mid-level concepts are composed to form a unified feature for each shot. We then use these features for shot classification.
-	\item {\bf Deep learning feature.} We use the DeepCaffe framework for extracting deep learning feature. Outputs obtained from the last three layers are used to represent features of each shot. 
+	\item {\bf Deep learning feature.} We also evaluate the performance of deep learning features due to its recent success on various image classification tasks \cite{krizhevsky2012imagenet}. We use the DeepCaffe framework for extracting deep learning feature. Outputs obtained from the last three layers are used to represent features of each shot. 
 \end{itemize}
 The main focus is to provide a comparative analysis on features and their contributions to the final performance of a VSD system. The observation drawn from our work may be helpful to future works in the field.
 
@@ -319,7 +319,7 @@ In this paper, we present a novel violent scene detection framework which is des
 
 \section{VSD system}
 \subsection{Framework Overview}
-We use a unified framework to evaluate the performance of each feature as well as the performance of feature combination methods. The framework should be flexible so that we can easily test different kind of features or fusion strategies. It also should be designed in a component-based manner so that we can evaluate each component separately while keeping other components intact. In this spirit, our framework can be decomposed into following components: (1) Pre-processing, (2) Feature Extraction, (3) Feature Encoding, (4) Feature Classification and (5) Feature Fusion. The detail of each component is described in the following sections. We especially focus on the feature encoding component. It is used to produce necessary features for this evaluation. An overview of our framework is shown in Figure \ref{fig:framework}.
+We use a unified framework to evaluate the performance of each feature as well as the performance of feature combination methods. The framework should be flexible so that we can easily test different kind of features. It also should be designed in a component-based manner so that we can evaluate each component separately while keeping other components intact. In this spirit, our framework can be decomposed into following components: (1) Pre-processing, (2) Feature Extraction, (3) Feature Encoding, (4) Feature Classification and (5) Feature Fusion. The detail of each component is described in the following sections. We especially focus on the feature encoding component. It is used to produce necessary features for this evaluation. An overview of our framework is shown in Figure \ref{fig:framework}.
 
 \subsection{Pre-processing}
 %\subsection{Keyframe Extraction and Shot Pooling}
@@ -388,30 +388,30 @@ We evaluate both global features and local features. We selected the best config
 \subsection{Visual local features}
 \subsubsection{Still image feature}
 
-For local feature, we use popular SIFT with both Hessian Laplace interest points and dense sampling at multiple scales. For dense sampling, besides normal SIFT descriptor, we also use Opponent-SIFT and C-SIFT. For Harlap interest point detector, we only use normal SIFT descriptor.	
+For local feature, we use popular SIFT with both Hessian Laplace interest points \cite{mikolajczyk2002affine} and dense sampling. In both strategies, local features are extracted at multiple scales using the Gaussian scale space \cite{mikolajczyk2002affine}. In case of dense sampling, the key points are sampled densely on a grid with the step size of 6 pixels. One the key point is detected, it is described by the standard SIFT, RGB-SIFT, Opponent-SIFT and C-SIFT.
 
 \subsubsection{Motion feature}
-As shown by Wang et al. \cite{wang2013action}, Dense Trajectory feature is one of the best approaches for action classification. Dense Trajectory has an efficient solution to remove camera motion. In the Hollywood movies, there are a lot of action with different movie effects in the violent scenes. We apply the dense trajectory  to capture these information. Trajectories are obtained by tracking the densely sampled points in the optical flow fields. As it is suggested by Wang \cite{wang2013action}, we use Histogram of Oriented Gradient (HOG), Histogram of Optical Flow (HOF) and Motion Boundary Histogram (MBH) to describe each trajectory. HOG is used to capture appearance characteristics of the moving object while HOF captures the speed of the moving object. The last descriptor, MBH, can capture boundary of the motion and is good for handling camera motion.
+As shown by Wang et al. \cite{wang2013action}, Dense Trajectory feature is one of the best approaches for action classification. Dense Trajectory has an efficient solution to remove camera motion. In the Hollywood movies, there are a lot of action with different movie effects in the violent scenes. We apply the dense trajectory to capture these information. Trajectories are obtained by tracking the densely sampled points in the optical flow fields. As it is suggested by Wang \cite{wang2013action}, we use Histogram of Oriented Gradient (HOG), Histogram of Optical Flow (HOF) and Motion Boundary Histogram (MBH) to describe each trajectory. HOG is used to capture appearance characteristics of the moving object while HOF captures the speed of the moving object. The last descriptor, MBH, can capture boundary of the motion and is good for handling camera motion.
 
 \subsubsection{Audio feature}
 We use the popular Mel-frequency Cepstral Coeffcients (MFCC) \cite{rabiner2007introduction} for extracting audio feature. We choose a window size of 25 ms for audio segment and a step size of 10 ms. The 13-dimensional MFCC vectors along with each first and second derivatives are used for representing each audio segment. Raw MFCC features are also encoded using BoW. These configurations are also used by AXES/LEAR team in TRECVID Multimedia Event Detection 2013 \cite{aly2013axes} and THUMOS Challenge 2014 \cite{oneata2014lear} in which they won the best performance.
 
 \subsection{Mid-level feature}
-\subsubsection{In domain: VSD concepts}
+\subsubsection{VSD concepts}
 
-Violent scene detection is also a kind of highlevel recognition task. Violence concept has high semantic meaning and high
+Violent scene detection is also a kind of high level recognition task. Violence concept has high semantic meaning and high
 variability in appearance. Besides that, due to lack of training data for this concept, training violence classifier directly
-from low-level features is not effective. Instead of focusing on selecting the low-level features for VSD, we try to investigate how to use related violent information as mid-level feature to detect violent scene in the movie. We manually select the violent information which are annotated by human assessors as related attributes of violence concept.Then we propose to use such concepts as related semantic attributes of the original violence concept. Figure \ref{fig:exampleVS} shows how to describe the violent scene by their semantic attributes. These attributes which can be more well-presented by low-level features (e.g. the attribute about ”blood” can be sufficiently presented by color) are used to create the mid-level features. In other words, the attributes have smaller gap to the low-level features, compared to the original violence concept. For example, in Figure 1, because violence occurred during the whole scene, it is very hard to use low-level features to represent the violence concept. But, we can use the low-level visual features to represent some attributes such as “fire”, ”blood”. By doing this, we narrow the semantic gap between the original violence concept and low-level features extracted from video shots.
+from low-level features is not effective. Instead of focusing on selecting the low-level features for VSD, we investigate how to use related violent information as mid-level feature to detect violent scene in the movie. We manually select the violent information which are annotated by human assessors as related attributes of violence concept.Then we propose to use such concepts as related semantic attributes of the original violence concept. Figure \ref{fig:exampleVS} shows how to describe the violent scene by their semantic attributes. These attributes which can be more well-presented by low-level features (e.g. the attribute about ”blood” can be sufficiently presented by color) are used to create the mid-level features. In other words, the attributes have smaller gap to the low-level features, compared to the original violence concept. For example, in Figure 1, because violence occurred during the whole scene, it is very hard to use low-level features to represent the violence concept. But, we can use the low-level visual features to represent some attributes such as “fire”, ”blood”. By doing this, we narrow the semantic gap between the original violence concept and low-level features extracted from video shots.
 \begin{figure*}[!t]
 	\centering
 	\includegraphics[width=2\linewidth]{Images/Mid-level.png}
 	\caption{Overview of Mid-level framework.}
 	\label{fig:mid-level}
 \end{figure*}
-Attributes related to violence concept are manually defined. We used seven related concepts provided in MediaEval Dataset as violent attributes. Our mid-level framework is shown in Figure~\ref{fig:mid-level}. Firstly, each corresponding attribute classifier is trained by using low-level features. Secondly, the mid-level features of a training (or test) video shots are formulated by concatenating scores returned by attribute classifiers. At the moment, we use the same weights for concatenating different scores. Then thirdly, we use this feature to train the mid-level feature-based violence classifier.  Finally, we apply this violence classifier on test set to get the violence score for each shot (these shots are also represented by mid-level features).
+Attributes related to violence concept are manually defined. We used seven related concepts provided in MediaEval Dataset as violent attributes. Our mid-level framework is shown in Figure~\ref{fig:mid-level}. Firstly, each corresponding attribute classifier is trained by using low-level features. Secondly, the mid-level features of a training (or test) video shots are formulated by concatenating scores returned by attribute classifiers. At the moment, we use the same weights for concatenating different scores. Then thirdly, we use this feature to train the mid-level feature-based violence classifier. Finally, we apply this violence classifier on test set to get the violence score for each shot (these shots are also represented by mid-level features).
 
-\subsubsection{Out domain: Deep learning feature}
-Mid-level features can also be learnt from out of domain concepts such as ObjectBank \cite{15} or ActionBank \cite{23}. However, learning off-the-shelf concepts is less effective using shallow methods. Recently, Krizhevsky \cite{krizhevsky2012imagenet} proposed a deep learning framework which significantly outperformed previous state-of-the-art methods on the ImageNet benchmark \cite{deng2009imagenet}. One interesting thing is this deep learning model can be used to extract feature on other benchmarks as an off-the-shelf object detector \cite{donahue2013decaf}. 
+\subsubsection{Deep learning feature}
+Mid-level features can also be learnt from out of domain concepts such as ObjectBank \cite{15} or ActionBank \cite{23}. However, learning off-the-shelf concepts is less effective than using shallow methods. Recently, Krizhevsky \cite{krizhevsky2012imagenet} proposed a deep learning framework which significantly outperformed previous state-of-the-art methods on the ImageNet benchmark \cite{deng2009imagenet}. One interesting thing is this deep learning model can be used to extract feature on other benchmarks as an off-the-shelf object detector \cite{donahue2013decaf}. 
 
 In this evaluation, we adopt the popular DeepCaffe \cite{jia2014caffe} framework for extracting keyframe features. We use the pre-trained deep model provided by DeepCaffe. This model was trained on ImageNet 1,000 concepts \cite{deng2009imagenet}. The detail protocol for training the model is described in \cite{jia2014caffe}. As suggested in \cite{krizhevsky2012imagenet}, we select the last three fully-connected layers for feature representation. The third and second to last layer has 4,096 dimension while the last layer has 1,000 dimension corresponding to 1,000 concept categories in the ImageNet dataset.
 
@@ -497,18 +497,18 @@ where V is number of test videos and AP is average precision for each video. Med
 	\begin{tabular}{llcccc}
 		%\toprule
 		\hline
-		Features & Color space & Quantization & MAP2014 & MAP-AT100 \\ \hline
+		Features & Color space & Quantization & MAP2014 \\ \hline
 		%\midrule
-		LBP & GRAY  & 59    & 31.18\% & 52.36\% \\
-		EOH & GRAY   & 36    & 24.20\% & 41.81\% \\
-		CH & RGB   & 8x3   & 23.53\% & 45.50\% \\
-		CM & HSV     & 3x3   & 22.21\% & 41.02\% \\
-		CM & Luv      & 3x3   & 21.68\% & 39.85\% \\
-		CH & Luv    & 8x3   & 21.56\% & 42.03\% \\
-		CH & HSV    & 8x3   & 20.73\% & 43.33\% \\
-		CM & RGB     & 3x3   & 20.17\% & 36.78\% \\
-		CM & YCrCb   & 3x3   & 17.81\% & 39.55\% \\
-		CH & YCrCb   & 8x3   & 17.79\% & 33.46\% \\ \hline
+		LBP & GRAY  & 59    & 31.18\% \\
+		EOH & GRAY   & 36    & 24.20\% \\
+		CH & RGB   & 8x3   & 23.53\% \\
+		CM & HSV     & 3x3   & 22.21\% \\
+		CM & Luv      & 3x3   & 21.68\% \\
+		CH & Luv    & 8x3   & 21.56\% \\
+		CH & HSV    & 8x3   & 20.73\%  \\
+		CM & RGB     & 3x3   & 20.17\% \\
+		CM & YCrCb   & 3x3   & 17.81\% \\
+		CH & YCrCb   & 8x3   & 17.79\% \\ \hline
 		%\bottomrule
 	\end{tabular}%
 	\label{tab:global}%
@@ -521,7 +521,7 @@ On the other hand, color information can be confusing when one single concept ha
 LBP often captures more information than EOH. It can also utilize the texture characteristics of the image in the feature representation. These texture pattern can be typical in violent scenes such as car chase and war scenes. That is why the performance of LBP is far better than the remaining global features.
 \subsubsection{Local features}
 
-\begin{table*}
+\begin{table}
 	\centering
 	\caption{Comparison of visual local features using BoW encoding, sorted by MAP2014.}
 	\begin{tabular}{llccc}
@@ -536,11 +536,11 @@ LBP often captures more information than EOH. It can also utilize the texture ch
 		Opponent SIFT & Dense6mul  & 34.29\% \\
 		Color SIFT & Dense6mul  & 34.22\% \\
 		Opponent SIFT & Harlap6mul & 31.38\% \\
-		Color SIFT & Harlap6mul & 30.13\% \\
+		Color SIFT & Harlap6mul & 30.13\% \\ \hline
 		%\bottomrule
 	\end{tabular}%
 	\label{tab:local}%
-\end{table*}%
+\end{table}%
 Performance evaluation of local image features is shown in Table \ref{tab:local}. At first, we extensively compare two keypoint extraction methods: one using Harlap operator and one using dense sampling strategy. Both of types were extracted at six different scales. Experimental results show that dense sampling strategy always outperforms Harlap keypoint detector. This observation is also same with what was reported in \cite{bosch2006scene} and \cite{bosch2007image}.
 
 In general SIFT features with color information have stronger performance for VSD. Among color SIFT features, RGB-SIFT has the best performance in both cases: with and without using spatial configuration. However, using the standard SIFT can already get a reasonably good performance, considering to its efficiency. 
@@ -660,11 +660,15 @@ Comparing to the remaining teams, our system achieved a much stronger performanc
 	\end{tabular}%
 	\label{tab:mediaeval}%
 \end{table}%
+\subsubsection{Summary of evaluation}
+The definition of violent scene can be involved with multiple objects, scenes and actions.  Experimental results show that still features can detect static violent scenes such as blood, fire and explosion. Audio features achieve reasonable performance when there are gun sounds, fighting or fast-moving objects in the action movies. However, many false positives are also detected because some scenes are not considered as violent scenes even though they contain the same audio information.  
+Violent movies often contain a number of violent actions such as fighting, chasing and slaughter.  Therefore, motion features can achieve better detection performance than others. However, because VSD is a multimedia problem, it is necessary to combine with other features as well.
+Due to the large diversity of the violent concepts, it is almost impractical to use in-domain VSD concepts.  In this evaluation, we also use 7 VSD concepts with only around dozens of annotated segments for each concept.  Expanding the number of in-domain can increase the performance but it is a costly approach.  On the other hand, we show that using a large number of out-of-domain concepts which are represented by deep learning features can also gain a substantial improvement.
 
 \section{Conclusion}
 We evaluated the performance of various features for the violent scene detection. The features that were evaluated include global, local image feature, motion feature, audio feature, VSD concept feature and deep learning feature. We also compare the two popular encoding strategy: bag-of-words and Fisher vector. In term of single feature performance, motion feature is very good for VSD. This highest performance was obtained when using with the Fisher vector encoding. The performance of deep learning feature extracted at the second-to-last fully connected layer is also reasonably good. This result appeals the application of deep learning for VSD.   
 
-We can even get better results when combining these evaluated features together. However, as shown in our experiments, combining all features is not effective. The correct to combine is to only select the best performing feature from each type of features. We can also achieve a higher performance when carefully select which type of features to combine. To this end, we recommend combining local image feature, motion feature and deep learning feature to obtain the best performance for VSD.
+We can even get better results when combining these evaluated features together. However, as shown in our experiments, combining all features is not effective. The correct way to combine is to only select the best performing feature from each type of features. We can also achieve a higher performance when carefully select which type of features to combine. To this end, we recommend combining local image feature, motion feature and deep learning feature to obtain the best performance for VSD.
 
 Comparing with other participants on the MediaEval 2014 VSD benchmark, our system won the runner-up result. In terms of system comparison without using post-processing, we actually won the best performance. Therefore our technologies is state-of-the-art, and our study can be served as a good reference for other researchers who want to build violent scene detection systems. 
 

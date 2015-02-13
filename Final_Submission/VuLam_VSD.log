@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.6.24)  10 FEB 2015 10:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.6.24)  13 FEB 2015 23:25
 entering extended mode
 **VuLam_VSD.tex
 
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission\VuLam_VSD
-.tex
+(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission1.1\VuLam_
+VSD.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission\bmcart.cl
-s
+(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission1.1\bmcart
+.cls
 Document Class: bmcart 2014/01/24BioMed Central class (VS)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -332,8 +332,8 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission\VuLam_VSD
-.aux)
+(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission1.1\VuLam_
+VSD.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
 LaTeX Font Info:    ... okay on input line 89.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
@@ -402,14 +402,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 237.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 237.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 237
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 237.
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textdagger' on input line 237.
-
 <Images/ViolentScene.png, id=1, 724.95844pt x 230.36063pt>
 File: Images/ViolentScene.png Graphic file (type png)
 
@@ -457,11 +449,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--306
 \OT1/cmr/m/n/10 innovation/scientific-data-sharing/violent-scenes-
  []
 
-[2 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission/Images
-/ViolentScene.png>] [3 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Fin
-al_Submission/Images/Framework1.png> <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014
--VSD/Latex/Final_Submission/Images/SystemOverview.png>] [4]
-<Images/Bow.png, id=28, 298.86656pt x 100.87688pt>
+[2 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission1.1/Ima
+ges/ViolentScene.png>] [3 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/
+Final_Submission1.1/Images/Framework1.png> <D:/DataVulq/Dropbox/Dropbox/PhD/201
+4/2014-VSD/Latex/Final_Submission1.1/Images/SystemOverview.png>] [4]
+<Images/Bow.png, id=27, 298.86656pt x 100.87688pt>
 File: Images/Bow.png Graphic file (type png)
  <use Images/Bow.png>
 Package pdftex.def Info: Images/Bow.png used on input line 347.
@@ -471,20 +463,20 @@ Overfull \hbox (12.5pt too wide) in paragraph at lines 347--348
  [][] 
  []
 
-<Images/framework_fv.png, id=29, 553.5882pt x 395.5578pt>
+<Images/framework_fv.png, id=28, 553.5882pt x 395.5578pt>
 File: Images/framework_fv.png Graphic file (type png)
 
 <use Images/framework_fv.png>
 Package pdftex.def Info: Images/framework_fv.png used on input line 357.
 (pdftex.def)             Requested size: 470.02002pt x 235.00067pt.
- [5 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission/Image
-s/Bow.png>]
+ [5 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission1.1/Im
+ages/Bow.png>]
 Underfull \hbox (badness 1221) in paragraph at lines 384--385
 \OT1/cmr/m/n/10 color his-togram, color spaces in-clud-ing HSV,
  []
 
-[6 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission/Images
-/framework_fv.png>] <Images/Mid-level.png, id=41, 700.11563pt x 313.17pt>
+[6 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission1.1/Ima
+ges/framework_fv.png>] <Images/Mid-level.png, id=40, 700.11563pt x 313.17pt>
 File: Images/Mid-level.png Graphic file (type png)
 
 <use Images/Mid-level.png>
@@ -500,33 +492,28 @@ Overfull \hbox (4.19833pt too wide) in paragraph at lines 426--456
  [][] 
  []
 
-[8 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission/Images
-/Mid-level.png>]
-Overfull \hbox (1.75557pt too wide) in paragraph at lines 497--515
- [][][] 
- []
-
-
+[8 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission1.1/Ima
+ges/Mid-level.png>]
 Underfull \hbox (badness 896) in paragraph at lines 544--545
 \OT1/cmr/m/n/10 Performance eval-u-a-tion of lo-cal im-age fea-tures is
  []
 
-
+[9]
 Underfull \hbox (badness 896) in paragraph at lines 551--567
 \OT1/cmr/m/n/10 Performance eval-u-a-tion of lo-cal im-age fea-tures is
  []
 
-[9] [10]
-<Images/BestRun_shot8th_CarChase_NoInjure.png, id=57, 695.59875pt x 287.57437pt
+[10]
+<Images/BestRun_shot8th_CarChase_NoInjure.png, id=56, 695.59875pt x 287.57437pt
 >
 File: Images/BestRun_shot8th_CarChase_NoInjure.png Graphic file (type png)
  <use Images/BestRun_shot8th_CarChase_NoInjure.png>
 Package pdftex.def Info: Images/BestRun_shot8th_CarChase_NoInjure.png used on i
 nput line 635.
 (pdftex.def)             Requested size: 470.0pt x 194.30617pt.
-
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission\VuLam_VSD
-.bbl
+ [11]
+(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission1.1\VuLam_
+VSD.bbl
 Overfull \hbox (9.50493pt too wide) in paragraph at lines 66--71
 \OT1/cmss/m/n/7 http://www.ocd.pitt.edu/Files/PDF/Parenting/TvAndMovieViolence.
 pdf. 
@@ -536,33 +523,29 @@ pdf.
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <7> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 84.
 
-[11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission/Imag
-es/BestRun_shot8th_CarChase_NoInjure.png>]) 
+ [12 <D:/DataVulq/Dropbox/Dropbox/PhD/2014/2014-VSD/Latex/Final_Submission1.1/I
+mages/BestRun_shot8th_CarChase_NoInjure.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+
 AED: lastpage setting LastPage
-[13
-
-]
-(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission\VuLam_VSD
-.aux)
+[13]
+(D:\DataVulq\Dropbox\Dropbox\PhD\2014\2014-VSD\Latex\Final_Submission1.1\VuLam_
+VSD.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
  ) 
 Here is how much of TeX's memory you used:
- 2655 strings out of 493921
- 34327 string characters out of 3147285
- 112974 words of memory out of 3000000
- 5930 multiletter control sequences out of 15000+200000
+ 2646 strings out of 493921
+ 34255 string characters out of 3147285
+ 114929 words of memory out of 3000000
+ 5923 multiletter control sequences out of 15000+200000
  11724 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  30i,14n,37p,1759b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -578,12 +561,11 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-zapfding/uzdr.pfb>
-Output written on VuLam_VSD.pdf (13 pages, 1673154 bytes).
+/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/zapfding/uzdr.pfb>
+Output written on VuLam_VSD.pdf (13 pages, 1666571 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

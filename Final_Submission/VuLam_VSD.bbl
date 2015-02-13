@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{53}
+\begin{thebibliography}{54}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -114,6 +114,19 @@ Accessed: 2015-1-10
 \endbibitem
 
 %%% 5
+\bibitem{krizhevsky2012imagenet}
+\begin{bchapter}
+\bauthor{\bsnm{Krizhevsky}, \binits{A.}},
+\bauthor{\bsnm{Sutskever}, \binits{I.}},
+\bauthor{\bsnm{Hinton}, \binits{G.E.}}:
+\bctitle{Imagenet classification with deep convolutional neural networks}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+pp. \bfpage{1097}--\blpage{1105}
+(\byear{2012})
+\end{bchapter}
+\endbibitem
+
+%%% 6
 \bibitem{nam1998audio}
 \begin{bchapter}
 \bauthor{\bsnm{Nam}, \binits{J.}},
@@ -129,7 +142,7 @@ pp. \bfpage{353}--\blpage{357}
 \end{bchapter}
 \endbibitem
 
-%%% 6
+%%% 7
 \bibitem{2}
 \begin{botherref}
 \oauthor{\bsnm{Liang-Hua}, \binits{C.}},
@@ -144,7 +157,7 @@ Computer Graphics, Imaging and Visualization (CGIV),
 \end{botherref}
 \endbibitem
 
-%%% 7
+%%% 8
 \bibitem{3}
 \begin{botherref}
 \oauthor{\bsnm{C.}, \binits{C.}},
@@ -159,7 +172,7 @@ Workshops and Demonstrations - ECCV,
 \end{botherref}
 \endbibitem
 
-%%% 8
+%%% 9
 \bibitem{11}
 \begin{botherref}
 \oauthor{\bsnm{Yu}, \binits{G.}},
@@ -174,7 +187,7 @@ Advances in Multimedia Information Processing-PCM,
 \end{botherref}
 \endbibitem
 
-%%% 9
+%%% 10
 \bibitem{17}
 \begin{botherref}
 \oauthor{\bsnm{Jian}, \binits{L.}},
@@ -187,7 +200,7 @@ Advances in Multimedia Information Processing-PCM,
 \end{botherref}
 \endbibitem
 
-%%% 10
+%%% 11
 \bibitem{21}
 \begin{botherref}
 \oauthor{\bsnm{Cédric}, \binits{P.}},
@@ -201,7 +214,7 @@ MediaEval Multimedia Benchmark Workshop
 \end{botherref}
 \endbibitem
 
-%%% 11
+%%% 12
 \bibitem{23}
 \begin{bchapter}
 \bauthor{\bsnm{Sadanand}, \binits{S.}},
@@ -215,7 +228,7 @@ pp. \bfpage{1234}--\blpage{1241}
 \end{bchapter}
 \endbibitem
 
-%%% 12
+%%% 13
 \bibitem{15}
 \begin{botherref}
 \oauthor{\bsnm{Li-Jia}, \binits{L.}},
@@ -230,7 +243,7 @@ Advances in Neural Information Processing Systems,
 \end{botherref}
 \endbibitem
 
-%%% 13
+%%% 14
 \bibitem{18}
 \begin{botherref}
 \oauthor{\bsnm{Jingen}, \binits{L.}},
@@ -243,7 +256,7 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR),
 \end{botherref}
 \endbibitem
 
-%%% 14
+%%% 15
 \bibitem{13}
 \begin{botherref}
 \oauthor{\bsnm{Bogdan}, \binits{I.}},
@@ -258,7 +271,7 @@ ACM Conference on International Conference on Multimedia Retrieval,
 \end{botherref}
 \endbibitem
 
-%%% 15
+%%% 16
 \bibitem{tan2013vireo}
 \begin{bchapter}
 \bauthor{\bsnm{Tan}, \binits{C.C.}},
@@ -270,7 +283,7 @@ In: \bbtitle{MediaEval}
 \end{bchapter}
 \endbibitem
 
-%%% 16
+%%% 17
 \bibitem{liu2004conceptnet}
 \begin{barticle}
 \bauthor{\bsnm{Liu}, \binits{H.}},
@@ -283,7 +296,7 @@ In: \bbtitle{MediaEval}
 \end{barticle}
 \endbibitem
 
-%%% 17
+%%% 18
 \bibitem{dai2013fudan}
 \begin{bchapter}
 \bauthor{\bsnm{Dai}, \binits{Q.}},
@@ -298,7 +311,7 @@ In: \bbtitle{MediaEval}
 \end{bchapter}
 \endbibitem
 
-%%% 18
+%%% 19
 \bibitem{penet2013technicolor}
 \begin{botherref}
 \oauthor{\bsnm{Penet}, \binits{C.}},
@@ -311,7 +324,7 @@ MediaEval 2013 Working Notes
 \end{botherref}
 \endbibitem
 
-%%% 19
+%%% 20
 \bibitem{sjoberg2013far}
 \begin{bchapter}
 \bauthor{\bsnm{Sj{\"o}berg}, \binits{M.}},
@@ -325,7 +338,7 @@ In: \bbtitle{MediaEval}
 \end{bchapter}
 \endbibitem
 
-%%% 20
+%%% 21
 \bibitem{derbas2013lig}
 \begin{bchapter}
 \bauthor{\bsnm{Derbas}, \binits{N.}},
@@ -339,7 +352,7 @@ In: \bbtitle{MediaEval}
 \end{bchapter}
 \endbibitem
 
-%%% 21
+%%% 22
 \bibitem{aly2013axes}
 \begin{botherref}
 \oauthor{\bsnm{Aly}, \binits{R.}},
@@ -357,7 +370,7 @@ The axes submissions at trecvid 2013
 \end{botherref}
 \endbibitem
 
-%%% 22
+%%% 23
 \bibitem{merler2012semantic}
 \begin{barticle}
 \bauthor{\bsnm{Merler}, \binits{M.}},
@@ -373,7 +386,7 @@ The axes submissions at trecvid 2013
 \end{barticle}
 \endbibitem
 
-%%% 23
+%%% 24
 \bibitem{harris1954distributional}
 \begin{botherref}
 \oauthor{\bsnm{Harris}, \binits{Z.S.}}:
@@ -383,7 +396,7 @@ Word
 \end{botherref}
 \endbibitem
 
-%%% 24
+%%% 25
 \bibitem{csurka2004visual}
 \begin{bchapter}
 \bauthor{\bsnm{Csurka}, \binits{G.}},
@@ -399,7 +412,7 @@ pp. \bfpage{1}--\blpage{2}
 \end{bchapter}
 \endbibitem
 
-%%% 25
+%%% 26
 \bibitem{sivic2009efficient}
 \begin{barticle}
 \bauthor{\bsnm{Sivic}, \binits{J.}},
@@ -412,7 +425,7 @@ pp. \bfpage{1}--\blpage{2}
 \end{barticle}
 \endbibitem
 
-%%% 26
+%%% 27
 \bibitem{jiang2010columbia}
 \begin{bchapter}
 \bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
@@ -429,7 +442,7 @@ In: \bbtitle{TRECVID}
 \end{bchapter}
 \endbibitem
 
-%%% 27
+%%% 28
 \bibitem{jiang2010representations}
 \begin{barticle}
 \bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
@@ -445,7 +458,7 @@ In: \bbtitle{TRECVID}
 \end{barticle}
 \endbibitem
 
-%%% 28
+%%% 29
 \bibitem{jiang2007towards}
 \begin{bchapter}
 \bauthor{\bsnm{Jiang}, \binits{Y.-G.}},
@@ -461,7 +474,7 @@ pp. \bfpage{494}--\blpage{501}
 \end{bchapter}
 \endbibitem
 
-%%% 29
+%%% 30
 \bibitem{lazebnik2006beyond}
 \begin{bchapter}
 \bauthor{\bsnm{Lazebnik}, \binits{S.}},
@@ -478,7 +491,7 @@ pp. \bfpage{2169}--\blpage{2178}
 \end{bchapter}
 \endbibitem
 
-%%% 30
+%%% 31
 \bibitem{jaakkola1999exploiting}
 \begin{botherref}
 \oauthor{\bsnm{Jaakkola}, \binits{T.}},
@@ -490,7 +503,7 @@ Advances in neural information processing systems,
 \end{botherref}
 \endbibitem
 
-%%% 31
+%%% 32
 \bibitem{sun2013large}
 \begin{bchapter}
 \bauthor{\bsnm{Sun}, \binits{C.}},
@@ -503,7 +516,7 @@ pp. \bfpage{15}--\blpage{22}
 \end{bchapter}
 \endbibitem
 
-%%% 32
+%%% 33
 \bibitem{wang2013action}
 \begin{bchapter}
 \bauthor{\bsnm{Wang}, \binits{H.}},
@@ -516,7 +529,7 @@ pp. \bfpage{3551}--\blpage{3558}
 \end{bchapter}
 \endbibitem
 
-%%% 33
+%%% 34
 \bibitem{sanchez2013image}
 \begin{barticle}
 \bauthor{\bsnm{S{\'a}nchez}, \binits{J.}},
@@ -531,7 +544,7 @@ pp. \bfpage{3551}--\blpage{3558}
 \end{barticle}
 \endbibitem
 
-%%% 34
+%%% 35
 \bibitem{perronnin2010improving}
 \begin{bchapter}
 \bauthor{\bsnm{Perronnin}, \binits{F.}},
@@ -545,7 +558,7 @@ pp. \bfpage{143}--\blpage{156}.
 \end{bchapter}
 \endbibitem
 
-%%% 35
+%%% 36
 \bibitem{LibSVM}
 \begin{barticle}
 \bauthor{\bsnm{Chang}, \binits{C.-C.}},
@@ -559,7 +572,7 @@ pp. \bfpage{143}--\blpage{156}.
 \end{barticle}
 \endbibitem
 
-%%% 36
+%%% 37
 \bibitem{snoek2005early}
 \begin{bchapter}
 \bauthor{\bsnm{Snoek}, \binits{C.G.}},
@@ -574,7 +587,7 @@ pp. \bfpage{399}--\blpage{402}
 \end{bchapter}
 \endbibitem
 
-%%% 37
+%%% 38
 \bibitem{lam2012nii}
 \begin{bchapter}
 \bauthor{\bsnm{Lam}, \binits{V.}},
@@ -589,7 +602,20 @@ In: \bbtitle{MediaEval}
 \end{bchapter}
 \endbibitem
 
-%%% 38
+%%% 39
+\bibitem{mikolajczyk2002affine}
+\begin{bchapter}
+\bauthor{\bsnm{Mikolajczyk}, \binits{K.}},
+\bauthor{\bsnm{Schmid}, \binits{C.}}:
+\bctitle{An affine invariant interest point detector}.
+In: \bbtitle{Computer Vision—ECCV 2002},
+pp. \bfpage{128}--\blpage{142}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2002})
+\end{bchapter}
+\endbibitem
+
+%%% 40
 \bibitem{rabiner2007introduction}
 \begin{barticle}
 \bauthor{\bsnm{Rabiner}, \binits{L.R.}},
@@ -602,7 +628,7 @@ In: \bbtitle{MediaEval}
 \end{barticle}
 \endbibitem
 
-%%% 39
+%%% 41
 \bibitem{oneata2014lear}
 \begin{botherref}
 \oauthor{\bsnm{Oneata}, \binits{D.}},
@@ -613,20 +639,7 @@ The lear submission at thumos 2014
 \end{botherref}
 \endbibitem
 
-%%% 40
-\bibitem{krizhevsky2012imagenet}
-\begin{bchapter}
-\bauthor{\bsnm{Krizhevsky}, \binits{A.}},
-\bauthor{\bsnm{Sutskever}, \binits{I.}},
-\bauthor{\bsnm{Hinton}, \binits{G.E.}}:
-\bctitle{Imagenet classification with deep convolutional neural networks}.
-In: \bbtitle{Advances in Neural Information Processing Systems},
-pp. \bfpage{1097}--\blpage{1105}
-(\byear{2012})
-\end{bchapter}
-\endbibitem
-
-%%% 41
+%%% 42
 \bibitem{deng2009imagenet}
 \begin{bchapter}
 \bauthor{\bsnm{Deng}, \binits{J.}},
@@ -644,7 +657,7 @@ pp. \bfpage{248}--\blpage{255}
 \end{bchapter}
 \endbibitem
 
-%%% 42
+%%% 43
 \bibitem{donahue2013decaf}
 \begin{botherref}
 \oauthor{\bsnm{Donahue}, \binits{J.}},
@@ -660,7 +673,7 @@ arXiv preprint arXiv:1310.1531
 \end{botherref}
 \endbibitem
 
-%%% 43
+%%% 44
 \bibitem{jia2014caffe}
 \begin{bchapter}
 \bauthor{\bsnm{Jia}, \binits{Y.}},
@@ -679,7 +692,7 @@ pp. \bfpage{675}--\blpage{678}
 \end{bchapter}
 \endbibitem
 
-%%% 44
+%%% 45
 \bibitem{bosch2006scene}
 \begin{bchapter}
 \bauthor{\bsnm{Bosch}, \binits{A.}},
@@ -693,7 +706,7 @@ pp. \bfpage{517}--\blpage{530}.
 \end{bchapter}
 \endbibitem
 
-%%% 45
+%%% 46
 \bibitem{bosch2007image}
 \begin{bchapter}
 \bauthor{\bsnm{Bosch}, \binits{A.}},
@@ -708,7 +721,7 @@ pp. \bfpage{1}--\blpage{8}
 \end{bchapter}
 \endbibitem
 
-%%% 46
+%%% 47
 \bibitem{2014fudan}
 \begin{botherref}
 \oauthor{\bsnm{Dai}, \binits{Q.}},
@@ -722,7 +735,7 @@ Fudan-njust at mediaeval 2014: Violent scenes detection using deep neural
 \end{botherref}
 \endbibitem
 
-%%% 47
+%%% 48
 \bibitem{2014far}
 \begin{botherref}
 \oauthor{\bsnm{Sj{\"o}berg}, \binits{M.}},
@@ -734,7 +747,7 @@ Far at mediaeval 2014 violent scenes detection: A concept-based fusion approach
 \end{botherref}
 \endbibitem
 
-%%% 48
+%%% 49
 \bibitem{2014nii}
 \begin{botherref}
 \oauthor{\bsnm{Lam}, \binits{V.}},
@@ -747,7 +760,7 @@ Far at mediaeval 2014 violent scenes detection: A concept-based fusion approach
 \end{botherref}
 \endbibitem
 
-%%% 49
+%%% 50
 \bibitem{2014mic}
 \begin{botherref}
 \oauthor{\bsnm{Zhang}, \binits{B.}},
@@ -759,7 +772,7 @@ Mic-tju at mediaeval violent scenes detection (vsd) 2014
 \end{botherref}
 \endbibitem
 
-%%% 50
+%%% 51
 \bibitem{avila2014recod}
 \begin{botherref}
 \oauthor{\bsnm{Avila}, \binits{S.}},
@@ -776,7 +789,7 @@ Recod at mediaeval 2014: Violent scenes detection task
 \end{botherref}
 \endbibitem
 
-%%% 51
+%%% 52
 \bibitem{2014vivolab}
 \begin{botherref}
 \oauthor{\bsnm{Cast{\'a}n}, \binits{D.}},
@@ -789,7 +802,7 @@ Vivolab and cvlab-mediaeval 2014: Violent scenes detection affect task
 \end{botherref}
 \endbibitem
 
-%%% 52
+%%% 53
 \bibitem{2014tub}
 \begin{botherref}
 \oauthor{\bsnm{Acar}, \binits{E.}},
@@ -800,7 +813,7 @@ Tub-irml at mediaeval 2014 violent scenes detection task: Violence modeling
 \end{botherref}
 \endbibitem
 
-%%% 53
+%%% 54
 \bibitem{2014mtm}
 \begin{botherref}
 \oauthor{\bparticle{do} \bsnm{Nascimento~Teixeira}, \binits{B.}}:
@@ -891,6 +904,20 @@ Mtm at mediaeval 2014 violence detection task
 </bibl>
 
 <bibl id="B5">
+  <title><p>Imagenet classification with deep convolutional neural
+  networks</p></title>
+  <aug>
+    <au><snm>Krizhevsky</snm><fnm>A</fnm></au>
+    <au><snm>Sutskever</snm><fnm>I</fnm></au>
+    <au><snm>Hinton</snm><fnm>GE</fnm></au>
+  </aug>
+  <source>Advances in neural information processing systems</source>
+  <pubdate>2012</pubdate>
+  <fpage>1097</fpage>
+  <lpage>-1105</lpage>
+</bibl>
+
+<bibl id="B6">
   <title><p>Audio-visual content-based violent scene
   characterization</p></title>
   <aug>
@@ -906,7 +933,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-357</lpage>
 </bibl>
 
-<bibl id="B6">
+<bibl id="B7">
   <title><p>Violence Detection in Movies</p></title>
   <aug>
     <au><snm>Liang Hua</snm><fnm>C</fnm></au>
@@ -921,7 +948,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>124</lpage>
 </bibl>
 
-<bibl id="B7">
+<bibl id="B8">
   <title><p>DOVE: Detection of Movie Violence Using Motion Intensity Analysis
   on Skin and Blood</p></title>
   <aug>
@@ -936,7 +963,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>156</lpage>
 </bibl>
 
-<bibl id="B8">
+<bibl id="B9">
   <title><p>Detecting Violent Scenes in Movies by Auditory and Visual
   Cues</p></title>
   <aug>
@@ -952,7 +979,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>326</lpage>
 </bibl>
 
-<bibl id="B9">
+<bibl id="B10">
   <title><p>Weakly-supervised Violence Detection in Movies with Audio and Video
   Based Co-training</p></title>
   <aug>
@@ -965,7 +992,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>935</lpage>
 </bibl>
 
-<bibl id="B10">
+<bibl id="B11">
   <title><p>Technicolor and Inria/irisa at Mediaeval 2011: Learning Temporal
   Modality Integration with Bayesian Networks</p></title>
   <aug>
@@ -978,7 +1005,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2011</pubdate>
 </bibl>
 
-<bibl id="B11">
+<bibl id="B12">
   <title><p>Action bank: A high-level representation of activity in
   video</p></title>
   <aug>
@@ -992,7 +1019,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-1241</lpage>
 </bibl>
 
-<bibl id="B12">
+<bibl id="B13">
   <title><p>Object Bank: A High-level Image Representation for Scene
   Classification &amp Semantic Feature Sparsification</p></title>
   <aug>
@@ -1007,7 +1034,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>1386</lpage>
 </bibl>
 
-<bibl id="B13">
+<bibl id="B14">
   <title><p>Recognizing Human Actions by Attributes</p></title>
   <aug>
     <au><snm>Jingen</snm><fnm>L</fnm></au>
@@ -1021,7 +1048,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>3344</lpage>
 </bibl>
 
-<bibl id="B14">
+<bibl id="B15">
   <title><p>A Naive Mid-level Concept-based Fusion Approach to Violence
   Detection in Hollywood Movies</p></title>
   <aug>
@@ -1037,7 +1064,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>222</lpage>
 </bibl>
 
-<bibl id="B15">
+<bibl id="B16">
   <title><p>The Vireo Team at MediaEval 2013: Violent Scenes Detection by
   Mid-level Concepts Learnt from Youtube.</p></title>
   <aug>
@@ -1048,7 +1075,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2013</pubdate>
 </bibl>
 
-<bibl id="B16">
+<bibl id="B17">
   <title><p>ConceptNet—a practical commonsense reasoning tool-kit</p></title>
   <aug>
     <au><snm>Liu</snm><fnm>H</fnm></au>
@@ -1063,7 +1090,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-226</lpage>
 </bibl>
 
-<bibl id="B17">
+<bibl id="B18">
   <title><p>Fudan at MediaEval 2013: Violent Scenes Detection Using Motion
   Features and Part-Level Attributes.</p></title>
   <aug>
@@ -1077,7 +1104,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2013</pubdate>
 </bibl>
 
-<bibl id="B18">
+<bibl id="B19">
   <title><p>Technicolor/INRIA team at the MediaEval 2013 Violent Scenes
   Detection Task</p></title>
   <aug>
@@ -1091,7 +1118,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2013</pubdate>
 </bibl>
 
-<bibl id="B19">
+<bibl id="B20">
   <title><p>FAR at MediaEval 2013 Violent Scenes Detection: Concept-based
   Violent Scenes Detection in Movies.</p></title>
   <aug>
@@ -1104,7 +1131,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2013</pubdate>
 </bibl>
 
-<bibl id="B20">
+<bibl id="B21">
   <title><p>LIG at MediaEval 2013 Affect Task: Use of a Generic Method and
   Joint Audio-Visual Words.</p></title>
   <aug>
@@ -1117,7 +1144,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2013</pubdate>
 </bibl>
 
-<bibl id="B21">
+<bibl id="B22">
   <title><p>The AXES submissions at TrecVid 2013</p></title>
   <aug>
     <au><snm>Aly</snm><fnm>R</fnm></au>
@@ -1135,7 +1162,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2013</pubdate>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B23">
   <title><p>Semantic model vectors for complex video event
   recognition</p></title>
   <aug>
@@ -1154,7 +1181,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-101</lpage>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B24">
   <title><p>Distributional structure.</p></title>
   <aug>
     <au><snm>Harris</snm><fnm>ZS</fnm></au>
@@ -1163,7 +1190,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>1954</pubdate>
 </bibl>
 
-<bibl id="B24">
+<bibl id="B25">
   <title><p>Visual categorization with bags of keypoints</p></title>
   <aug>
     <au><snm>Csurka</snm><fnm>G</fnm></au>
@@ -1180,7 +1207,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-2</lpage>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B26">
   <title><p>Efficient visual search of videos cast as text
   retrieval</p></title>
   <aug>
@@ -1197,7 +1224,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-606</lpage>
 </bibl>
 
-<bibl id="B26">
+<bibl id="B27">
   <title><p>Columbia-UCF TRECVID2010 Multimedia Event Detection: Combining
   Multiple Modalities, Contextual Concepts, and Temporal Matching.</p></title>
   <aug>
@@ -1213,7 +1240,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2010</pubdate>
 </bibl>
 
-<bibl id="B27">
+<bibl id="B28">
   <title><p>Representations of keypoint-based semantic concept detection: A
   comprehensive study</p></title>
   <aug>
@@ -1231,7 +1258,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-53</lpage>
 </bibl>
 
-<bibl id="B28">
+<bibl id="B29">
   <title><p>Towards optimal bag-of-features for object categorization and
   semantic video retrieval</p></title>
   <aug>
@@ -1246,7 +1273,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-501</lpage>
 </bibl>
 
-<bibl id="B29">
+<bibl id="B30">
   <title><p>Beyond bags of features: Spatial pyramid matching for recognizing
   natural scene categories</p></title>
   <aug>
@@ -1262,7 +1289,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-2178</lpage>
 </bibl>
 
-<bibl id="B30">
+<bibl id="B31">
   <title><p>Exploiting generative models in discriminative
   classifiers</p></title>
   <aug>
@@ -1277,7 +1304,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-493</lpage>
 </bibl>
 
-<bibl id="B31">
+<bibl id="B32">
   <title><p>Large-scale web video event classification by use of fisher
   vectors</p></title>
   <aug>
@@ -1291,7 +1318,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-22</lpage>
 </bibl>
 
-<bibl id="B32">
+<bibl id="B33">
   <title><p>Action recognition with improved trajectories</p></title>
   <aug>
     <au><snm>Wang</snm><fnm>H</fnm></au>
@@ -1304,7 +1331,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-3558</lpage>
 </bibl>
 
-<bibl id="B33">
+<bibl id="B34">
   <title><p>Image classification with the fisher vector: Theory and
   practice</p></title>
   <aug>
@@ -1322,7 +1349,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-245</lpage>
 </bibl>
 
-<bibl id="B34">
+<bibl id="B35">
   <title><p>Improving the fisher kernel for large-scale image
   classification</p></title>
   <aug>
@@ -1337,7 +1364,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-156</lpage>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B36">
   <title><p>{LIBSVM}: A library for support vector machines</p></title>
   <aug>
     <au><snm>Chang</snm><fnm>CC</fnm></au>
@@ -1352,7 +1379,7 @@ Mtm at mediaeval 2014 violence detection task
   \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}</note>
 </bibl>
 
-<bibl id="B36">
+<bibl id="B37">
   <title><p>Early versus late fusion in semantic video analysis</p></title>
   <aug>
     <au><snm>Snoek</snm><fnm>CG</fnm></au>
@@ -1366,7 +1393,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-402</lpage>
 </bibl>
 
-<bibl id="B37">
+<bibl id="B38">
   <title><p>NII, Japan at MediaEval 2012 Violent Scenes Detection Affect
   Task.</p></title>
   <aug>
@@ -1380,7 +1407,20 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2012</pubdate>
 </bibl>
 
-<bibl id="B38">
+<bibl id="B39">
+  <title><p>An affine invariant interest point detector</p></title>
+  <aug>
+    <au><snm>Mikolajczyk</snm><fnm>K</fnm></au>
+    <au><snm>Schmid</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Computer Vision—ECCV 2002</source>
+  <publisher>Springer</publisher>
+  <pubdate>2002</pubdate>
+  <fpage>128</fpage>
+  <lpage>-142</lpage>
+</bibl>
+
+<bibl id="B40">
   <title><p>Introduction to digital speech processing</p></title>
   <aug>
     <au><snm>Rabiner</snm><fnm>LR</fnm></au>
@@ -1395,7 +1435,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-194</lpage>
 </bibl>
 
-<bibl id="B39">
+<bibl id="B41">
   <title><p>The LEAR submission at Thumos 2014</p></title>
   <aug>
     <au><snm>Oneata</snm><fnm>D</fnm></au>
@@ -1405,21 +1445,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B40">
-  <title><p>Imagenet classification with deep convolutional neural
-  networks</p></title>
-  <aug>
-    <au><snm>Krizhevsky</snm><fnm>A</fnm></au>
-    <au><snm>Sutskever</snm><fnm>I</fnm></au>
-    <au><snm>Hinton</snm><fnm>GE</fnm></au>
-  </aug>
-  <source>Advances in neural information processing systems</source>
-  <pubdate>2012</pubdate>
-  <fpage>1097</fpage>
-  <lpage>-1105</lpage>
-</bibl>
-
-<bibl id="B41">
+<bibl id="B42">
   <title><p>Imagenet: A large-scale hierarchical image database</p></title>
   <aug>
     <au><snm>Deng</snm><fnm>J</fnm></au>
@@ -1436,7 +1462,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-255</lpage>
 </bibl>
 
-<bibl id="B42">
+<bibl id="B43">
   <title><p>Decaf: A deep convolutional activation feature for generic visual
   recognition</p></title>
   <aug>
@@ -1452,7 +1478,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2013</pubdate>
 </bibl>
 
-<bibl id="B43">
+<bibl id="B44">
   <title><p>Caffe: Convolutional architecture for fast feature
   embedding</p></title>
   <aug>
@@ -1472,7 +1498,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-678</lpage>
 </bibl>
 
-<bibl id="B44">
+<bibl id="B45">
   <title><p>Scene classification via pLSA</p></title>
   <aug>
     <au><snm>Bosch</snm><fnm>A</fnm></au>
@@ -1486,7 +1512,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-530</lpage>
 </bibl>
 
-<bibl id="B45">
+<bibl id="B46">
   <title><p>Image classification using random forests and ferns</p></title>
   <aug>
     <au><snm>Bosch</snm><fnm>A</fnm></au>
@@ -1500,7 +1526,7 @@ Mtm at mediaeval 2014 violence detection task
   <lpage>-8</lpage>
 </bibl>
 
-<bibl id="B46">
+<bibl id="B47">
   <title><p>Fudan-NJUST at MediaEval 2014: Violent Scenes Detection Using Deep
   Neural Networks</p></title>
   <aug>
@@ -1515,7 +1541,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B47">
+<bibl id="B48">
   <title><p>FAR at MediaEval 2014 Violent Scenes Detection: A Concept-based
   Fusion Approach</p></title>
   <aug>
@@ -1529,7 +1555,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B48">
+<bibl id="B49">
   <title><p>{NII-UIT} at MediaEval 2014 Violent Scenes Detection Affect
   Task</p></title>
   <aug>
@@ -1544,7 +1570,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B49">
+<bibl id="B50">
   <title><p>MIC-TJU at MediaEval Violent Scenes Detection (VSD)
   2014</p></title>
   <aug>
@@ -1558,7 +1584,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B50">
+<bibl id="B51">
   <title><p>RECOD at MediaEval 2014: Violent Scenes Detection Task</p></title>
   <aug>
     <au><snm>Avila</snm><fnm>S</fnm></au>
@@ -1574,7 +1600,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B51">
+<bibl id="B52">
   <title><p>ViVoLab and CVLab-MediaEval 2014: Violent Scenes Detection Affect
   Task</p></title>
   <aug>
@@ -1589,7 +1615,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B52">
+<bibl id="B53">
   <title><p>TUB-IRML at MediaEval 2014 Violent Scenes Detection Task: Violence
   Modeling through Feature Space Partitioning</p></title>
   <aug>
@@ -1601,7 +1627,7 @@ Mtm at mediaeval 2014 violence detection task
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B53">
+<bibl id="B54">
   <title><p>MTM at MediaEval 2014 Violence Detection Task</p></title>
   <aug>
     <au><snm>Nascimento Teixeira</snm><fnm>B</fnm></au>

@@ -16,7 +16,7 @@
 \@writefile{toc}{\contentsline {section}{Abstract}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \thanksnewlabel{au1thanks}{{*}{1}}
-\thanksnewlabel{n1thanks}{{\textdagger }{1}}
+\citation{krizhevsky2012imagenet}
 \citation{demarty2014benchmarking}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Following the violent definition in \cite  {demarty2014benchmarking}, this is an example of a violent scene in Saving Private Ryan Movie because it contains physical violence or accident resulting (fighting scene: boats approaching, guns shooting, fire guns shooting,..) in human injury or pain (blood and gory, dead soldiers)}}{2}}
 \newlabel{fig:exampleVS}{{1}{2}}
@@ -84,6 +84,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4}VSD features}{6}}
 \newlabel{vsd_feature}{{4}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Visual global features}{6}}
+\citation{mikolajczyk2002affine}
+\citation{mikolajczyk2002affine}
 \citation{wang2013action}
 \citation{wang2013action}
 \citation{rabiner2007introduction}
@@ -103,8 +105,8 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Motion feature}{7}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Audio feature}{7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Mid-level feature}{7}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}In domain: VSD concepts}{7}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Out domain: Deep learning feature}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}VSD concepts}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Deep learning feature}{7}}
 \citation{demarty2014benchmarking}
 \citation{demarty2014benchmarking}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Overview of Mid-level framework.}}{8}}
@@ -118,22 +120,24 @@
 \newlabel{test-dataset}{{2}{8}}
 \citation{bosch2006scene}
 \citation{bosch2007image}
-\citation{wang2013action}
 \@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparison of visual global features, sorted by MAP2014.}}{9}}
 \newlabel{tab:global}{{3}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Evaluation metrics}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Results and comparisons}{9}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Global features}{9}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Comparison of visual local features using BoW encoding, sorted by MAP2014.}}{9}}
+\newlabel{tab:local}{{4}{9}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2}Local features}{9}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.3}Motion features}{9}}
+\citation{wang2013action}
 \citation{donahue2013decaf}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Comparison of visual local features using BoW encoding, sorted by MAP2014.}}{10}}
-\newlabel{tab:local}{{4}{10}}
 \@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Comparison of motion descriptors for the improved dense trajectories feature using the BoW encoding, sorted by MAP2014.}}{10}}
 \newlabel{tab:motion_bow}{{5}{10}}
 \@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Comparison of in-domain and out-domain of mid-level features, sorted by MAP2014.}}{10}}
 \newlabel{tab:midlevel}{{6}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.3}Motion features}{10}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.4}Mid-level feature}{10}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Summary of performance of each feature and their combination using late fusion.}}{10}}
+\newlabel{tab:summary}{{8}{10}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.5}Comparison between BoW and FV}{10}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.6}Best of each feature types}{10}}
 \citation{2014fudan}
@@ -146,75 +150,75 @@
 \citation{2014vivolab}
 \citation{2014tub}
 \citation{2014mtm}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Performance comparison of Bag-of-words and Fisher vector encoding.}}{11}}
+\newlabel{tab:bow_fv}{{7}{11}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Comparison with MediaEval teams, sorted by MAP2014.}}{11}}
+\newlabel{tab:mediaeval}{{9}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.7}Comparison with other MediaEval teams}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.8}Summary of evaluation}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{11}}
 \bibstyle{bmc-mathphys}
 \bibdata{mybibfile}
 \bibcite{demarty2014benchmarking}{1}
 \bibcite{TVMovieViolence}{2}
 \bibcite{myers2014evaluating}{3}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Performance comparison of Bag-of-words and Fisher vector encoding.}}{11}}
-\newlabel{tab:bow_fv}{{7}{11}}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Summary of performance of each feature and their combination using late fusion.}}{11}}
-\newlabel{tab:summary}{{8}{11}}
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Comparison with MediaEval teams, sorted by MAP2014.}}{11}}
-\newlabel{tab:mediaeval}{{9}{11}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.7}Comparison with other MediaEval teams}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Acknowledgements}{11}}
-\thanksnewlabel{aff1thanks}{{1}{11}}
-\thanksnewlabel{aff2thanks}{{2}{11}}
-\thanksnewlabel{aff3thanks}{{3}{11}}
 \bibcite{oh2014multimedia}{4}
-\bibcite{nam1998audio}{5}
-\bibcite{2}{6}
-\bibcite{3}{7}
-\bibcite{11}{8}
-\bibcite{17}{9}
-\bibcite{21}{10}
-\bibcite{23}{11}
-\bibcite{15}{12}
-\bibcite{18}{13}
-\bibcite{13}{14}
-\bibcite{tan2013vireo}{15}
-\bibcite{liu2004conceptnet}{16}
-\bibcite{dai2013fudan}{17}
-\bibcite{penet2013technicolor}{18}
-\bibcite{sjoberg2013far}{19}
-\bibcite{derbas2013lig}{20}
-\bibcite{aly2013axes}{21}
-\bibcite{merler2012semantic}{22}
-\bibcite{harris1954distributional}{23}
-\bibcite{csurka2004visual}{24}
-\bibcite{sivic2009efficient}{25}
-\bibcite{jiang2010columbia}{26}
-\bibcite{jiang2010representations}{27}
-\bibcite{jiang2007towards}{28}
-\bibcite{lazebnik2006beyond}{29}
-\bibcite{jaakkola1999exploiting}{30}
+\bibcite{krizhevsky2012imagenet}{5}
+\bibcite{nam1998audio}{6}
+\bibcite{2}{7}
+\bibcite{3}{8}
+\bibcite{11}{9}
+\bibcite{17}{10}
+\bibcite{21}{11}
+\bibcite{23}{12}
+\bibcite{15}{13}
+\bibcite{18}{14}
+\bibcite{13}{15}
+\bibcite{tan2013vireo}{16}
+\bibcite{liu2004conceptnet}{17}
+\bibcite{dai2013fudan}{18}
+\bibcite{penet2013technicolor}{19}
+\bibcite{sjoberg2013far}{20}
+\bibcite{derbas2013lig}{21}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Example of violent scenes detected by our best system. This figure is best viewed in color.}}{12}}
 \newlabel{fig:bestdemo}{{7}{12}}
-\bibcite{sun2013large}{31}
-\bibcite{wang2013action}{32}
-\bibcite{sanchez2013image}{33}
-\bibcite{perronnin2010improving}{34}
-\bibcite{LibSVM}{35}
-\bibcite{snoek2005early}{36}
-\bibcite{lam2012nii}{37}
-\bibcite{rabiner2007introduction}{38}
-\bibcite{oneata2014lear}{39}
-\bibcite{krizhevsky2012imagenet}{40}
-\bibcite{deng2009imagenet}{41}
-\bibcite{donahue2013decaf}{42}
-\bibcite{jia2014caffe}{43}
-\bibcite{bosch2006scene}{44}
-\bibcite{bosch2007image}{45}
-\bibcite{2014fudan}{46}
-\bibcite{2014far}{47}
-\bibcite{2014nii}{48}
-\bibcite{2014mic}{49}
-\bibcite{avila2014recod}{50}
-\bibcite{2014vivolab}{51}
-\bibcite{2014tub}{52}
-\bibcite{2014mtm}{53}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Acknowledgements}{12}}
+\thanksnewlabel{aff1thanks}{{1}{12}}
+\thanksnewlabel{aff2thanks}{{2}{12}}
+\thanksnewlabel{aff3thanks}{{3}{12}}
+\bibcite{aly2013axes}{22}
+\bibcite{merler2012semantic}{23}
+\bibcite{harris1954distributional}{24}
+\bibcite{csurka2004visual}{25}
+\bibcite{sivic2009efficient}{26}
+\bibcite{jiang2010columbia}{27}
+\bibcite{jiang2010representations}{28}
+\bibcite{jiang2007towards}{29}
+\bibcite{lazebnik2006beyond}{30}
+\bibcite{jaakkola1999exploiting}{31}
+\bibcite{sun2013large}{32}
+\bibcite{wang2013action}{33}
+\bibcite{sanchez2013image}{34}
+\bibcite{perronnin2010improving}{35}
+\bibcite{LibSVM}{36}
+\bibcite{snoek2005early}{37}
+\bibcite{lam2012nii}{38}
+\bibcite{mikolajczyk2002affine}{39}
+\bibcite{rabiner2007introduction}{40}
+\bibcite{oneata2014lear}{41}
+\bibcite{deng2009imagenet}{42}
+\bibcite{donahue2013decaf}{43}
+\bibcite{jia2014caffe}{44}
+\bibcite{bosch2006scene}{45}
+\bibcite{bosch2007image}{46}
+\bibcite{2014fudan}{47}
+\bibcite{2014far}{48}
+\bibcite{2014nii}{49}
+\bibcite{2014mic}{50}
+\bibcite{avila2014recod}{51}
+\bibcite{2014vivolab}{52}
+\bibcite{2014tub}{53}
+\bibcite{2014mtm}{54}
 \newlabel{LastPage}{{}{13}}
 \xdef\lastpage@lastpage{13}
 \gdef\lastpage@lastpageHy{}
